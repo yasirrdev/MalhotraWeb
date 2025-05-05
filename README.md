@@ -1,2 +1,2 @@
 # MalhotraWeb
-Repositorio para la pagina web de Malhotra Cables Private Limited
+Repository for web page of Malhotra Cables Private Limited
