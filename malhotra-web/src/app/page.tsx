@@ -1,5 +1,3 @@
-// app/page.tsx
-
 "use client";
 
 import Image from "next/image";
@@ -22,10 +20,8 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col font-montserrat">
-      {/* Navbar */}
       <Navbar />
 
-      {/* Hero */}
       <section className="relative h-[80vh] min-h-[600px] w-full overflow-hidden pt-20">
         <div className="absolute inset-0 bg-black/40 z-10" />
         <Image
@@ -52,7 +48,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Stats */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -78,7 +73,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Products */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
@@ -107,11 +101,9 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Core Values & Certifications */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            {/* Core Values */}
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-8">
                 Our Core Values
@@ -136,19 +128,16 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Certifications Carousel */}
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-8">
                 Our Certifications
               </h2>
-              {/* Aquí pasamos la prop correcta */}
               <CertificationCarousel certifications={certifications} />
             </div>
           </div>
         </div>
       </section>
 
-      {/* Director Message */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6">
           <div className="flex flex-col lg:flex-row items-center gap-12">
@@ -184,8 +173,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Clients Slider */}
-      <section className="py-20 bg-white">
+¡      <section className="py-20 bg-white">
         <div className="container mx-auto px-4 sm:px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
@@ -199,7 +187,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer */}
       <Footer />
     </main>
   );

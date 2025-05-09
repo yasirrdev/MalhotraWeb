@@ -35,7 +35,6 @@ export default function ProductCard({ product, cable }: ProductCardProps) {
       .replace(/-+$/, "")
   }
 
-  // Render product card for homepage
   if (product) {
     return (
       <Card
@@ -82,7 +81,6 @@ export default function ProductCard({ product, cable }: ProductCardProps) {
     )
   }
 
-  // Render cable card for products page
   if (cable) {
     return (
       <div
