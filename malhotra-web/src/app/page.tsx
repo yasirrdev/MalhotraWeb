@@ -17,7 +17,7 @@ type DataHome = typeof dataHome;
 export default function Home() {
   const { products, coreValues, certifications, clients } =
     dataHome as DataHome;
-
+// force commit
   return (
     <main className="flex min-h-screen flex-col font-montserrat">
       <Navbar />
