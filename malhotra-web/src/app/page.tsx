@@ -11,6 +11,7 @@ import ClientLogoSlider from "@/components/landing/client-logo-slider";
 import Navbar from "@/components/landing/navbar";
 import Footer from "@/components/landing/footer";
 import dataHome from "@/data/home/dataHome.json";
+import Link from "next/link";
 
 type DataHome = typeof dataHome;
 
@@ -40,7 +41,7 @@ export default function Home() {
               20 years of excellence in manufacturing automotive,
               data-communication, and high-voltage cables.
             </p>
-            <Button className="bg-accent hover:bg-accent/90 text-white px-8 py-6 text-lg rounded-md transition-all duration-300 shadow-lg hover:shadow-xl">
+            <Button className="bg-secondary hover:bg-secondary/50 text-white px-8 py-6 text-lg rounded-md transition-all duration-300 shadow-lg hover:shadow-xl">
               Explore Our Products
               <Icons.ArrowRight className="ml-2 h-5 w-5" />
             </Button>
