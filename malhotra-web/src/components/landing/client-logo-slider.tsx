@@ -41,7 +41,7 @@ export default function ClientLogoSlider({ clients }: ClientLogoSliderProps) {
                 alt={client.name}
                 width={120}
                 height={80}
-                className="object-contain max-h-16 grayscale group-hover:grayscale-0 transition-all duration-600"
+                className="object-contain max-h-16 transition-all duration-600"
               />
             </div>
           </div>
@@ -57,8 +57,8 @@ export default function ClientLogoSlider({ clients }: ClientLogoSliderProps) {
 
       <style jsx global>{`
         .slider-content {
-          width: max-content;       /* Para que el contenedor crezca al tamaño de todo el contenido */
-          display: flex;            /* Logos en fila */
+          width: max-content;       
+          display: flex;            
           animation: slide 30s linear infinite;
         }
 

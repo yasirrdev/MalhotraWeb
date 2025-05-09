@@ -8,10 +8,9 @@ import CounterAnimation from "@/components/landing/counter-animation";
 import ProductCard from "@/components/landing/product-card";
 import CertificationCarousel from "@/components/landing/certification-carrousel";
 import ClientLogoSlider from "@/components/landing/client-logo-slider";
-import Navbar from "@/components/landing/navbar";
-import Footer from "@/components/landing/footer";
+import Navbar from "@/components/navbar/navbar";
+import Footer from "@/components/footer/footer";
 import dataHome from "@/data/home/dataHome.json";
-import Link from "next/link";
 
 type DataHome = typeof dataHome;
 
