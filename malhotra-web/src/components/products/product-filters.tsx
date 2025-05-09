@@ -41,9 +41,7 @@ export default function ProductFilters({
               key={category.id}
               onClick={() => onCategoryChange(category.id)}
               className={`px-4 py-2 whitespace-nowrap mr-2 rounded-md ${
-                activeCategory === category.id
-                  ? "bg-[#00607d] text-white"
-                  : "bg-gray-200 text-gray-700 hover:bg-gray-300"
+                activeCategory === category.id ? "tab-active" : "tab-inactive"
               }`}
             >
               {category.name}
