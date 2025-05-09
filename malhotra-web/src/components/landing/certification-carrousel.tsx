@@ -1,4 +1,3 @@
-// components/landing/CertificationCarousel.tsx
 "use client";
 
 import { useState } from "react";
@@ -39,7 +38,6 @@ export default function CertificationCarousel({ certifications }: Props) {
   return (
     <>
       <div className="relative w-full h-64 md:h-80 overflow-hidden">
-        {/* Zonas invisibles para navegación */}
         <div
           onClick={goPrev}
           className="absolute inset-y-0 left-0 w-1/2 z-30 cursor-pointer"
@@ -49,7 +47,6 @@ export default function CertificationCarousel({ certifications }: Props) {
           className="absolute inset-y-0 right-0 w-1/2 z-30 cursor-pointer"
         />
 
-        {/* Slides */}
         {safeCerts.map((c, idx) => {
           let cls = "absolute top-1/2 transform transition-all duration-500 ";
 
@@ -83,7 +80,6 @@ export default function CertificationCarousel({ certifications }: Props) {
           );
         })}
 
-        {/* Flechas */}
         <button
           type="button"
           aria-label="Anterior"
@@ -103,7 +99,6 @@ export default function CertificationCarousel({ certifications }: Props) {
           <ChevronRight className="w-6 h-6" />
         </button>
 
-        {/* Indicadores */}
         <div className="absolute bottom-4 w-full flex justify-center space-x-2 z-40">
           {safeCerts.map((_, idx) => (
             <button
@@ -119,7 +114,6 @@ export default function CertificationCarousel({ certifications }: Props) {
         </div>
       </div>
 
-      {/* Modal */}
       {isModalOpen && (
         <div className="fixed inset-0 z-50 grid place-items-center backdrop-blur-sm">
           <div
@@ -138,7 +132,6 @@ export default function CertificationCarousel({ certifications }: Props) {
               <X className="w-6 h-6" />
             </button>
 
-            {/* Imagen del certificado */}
             <div className="flex-shrink-0">
               <Image
                 src={cert.image}
@@ -149,7 +142,6 @@ export default function CertificationCarousel({ certifications }: Props) {
               />
             </div>
 
-            {/* Detalles del certificado */}
             <div className="flex-1 overflow-y-auto">
               <h3 className="text-2xl font-bold mb-4">{cert.name}</h3>
               <ul className="space-y-2 text-gray-700">

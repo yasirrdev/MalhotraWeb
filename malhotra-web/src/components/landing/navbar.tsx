@@ -13,7 +13,6 @@ export default function Navbar() {
   const aboutDropdownRef = useRef<HTMLDivElement>(null)
   const aboutButtonRef = useRef<HTMLButtonElement>(null)
 
-  // Handle scroll effect
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 10) {
@@ -27,7 +26,6 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
-  // Handle click outside dropdown
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (
@@ -44,7 +42,6 @@ export default function Navbar() {
     return () => document.removeEventListener("mousedown", handleClickOutside)
   }, [])
 
-  // Handle escape key to close dropdown
   useEffect(() => {
     const handleEscKey = (event: KeyboardEvent) => {
       if (event.key === "Escape") {
@@ -57,7 +54,6 @@ export default function Navbar() {
     return () => document.removeEventListener("keydown", handleEscKey)
   }, [])
 
-  // Prevent body scroll when mobile menu is open
   useEffect(() => {
     if (isMobileMenuOpen) {
       document.body.style.overflow = "hidden"
@@ -78,10 +74,9 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-20">
-          {/* Logo */}
           <Link href="/" className="flex-shrink-0 py-4">
             <Image
-              src="/placeholder.svg?height=40&width=180"
+              src="/landing/images/MalhotraLogo.webp"
               alt="Malhotra Cables Logo"
               width={180}
               height={40}
@@ -90,7 +85,6 @@ export default function Navbar() {
             />
           </Link>
 
-          {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <Link
               href="/"
@@ -147,7 +141,6 @@ export default function Navbar() {
             </Link>
           </nav>
 
-          {/* Mobile Menu Button */}
           <button
             type="button"
             className="md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-800 hover:text-primary hover:bg-gray-100 transition-colors duration-150"
@@ -159,7 +152,6 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       <div
         id="mobile-menu"
         className={cn(
