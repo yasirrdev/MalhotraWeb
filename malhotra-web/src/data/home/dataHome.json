@@ -1,0 +1,104 @@
+{
+  "products": [
+    {
+      "title": "Automotive Cables",
+      "description": "High-performance cables for the automotive industry with superior durability and reliability.",
+      "icon": "Truck",
+      "link": "/products/automotive"
+    },
+    {
+      "title": "Data Communication Cables",
+      "description": "Advanced data cables designed for fast and reliable transmission in various environments.",
+      "icon": "Globe",
+      "link": "/products/data-communication"
+    },
+    {
+      "title": "High-Voltage Cables",
+      "description": "Industrial-grade high-voltage cables engineered for safety and performance.",
+      "icon": "Factory",
+      "link": "/products/high-voltage"
+    },
+    {
+      "title": "Custom Solutions",
+      "description": "Tailored cable solutions designed to meet your specific requirements and applications.",
+      "icon": "CheckCircle",
+      "link": "/products/custom"
+    }
+  ],
+  "coreValues": [
+    {
+      "title": "Quality Excellence",
+      "description": "Committed to delivering products that exceed industry standards",
+      "icon": "Award"
+    },
+    {
+      "title": "Innovation",
+      "description": "Constantly evolving our technology and processes",
+      "icon": "CheckCircle"
+    },
+    {
+      "title": "Customer Focus",
+      "description": "Dedicated to understanding and meeting customer needs",
+      "icon": "Users"
+    }
+  ],
+ "certifications": [
+    {
+      "name": "ISO 14001:2015",
+      "image": "/landing/images/certifications/ISO_14001-2015.webp",
+      "asrNumber": "4207",
+      "issueDate": "August 20, 2022",
+      "expirationDate": "August 19, 2025",
+      "initialRegistration": "September 2, 2010"
+    },
+    {
+      "name": "IATF 16949-2016",
+      "image": "/landing/images/certifications/IATF_16949-2016.webp",
+      "asrNumber": "0375283 ",
+      "iatfNo":"4316-2",
+      "issueDate": "August 20, 2022",
+      "expirationDate": "August 19, 2025",
+      "initialRegistration": "September 2, 2010"
+    },
+    {
+      "name": "ISO 45001-2018",
+      "image": "/landing/images/certifications/ISO_45001-2018.webp",
+      "asrNumber": "8307-1",
+      "issueDate": "February 17, 2021",
+      "expirationDate": "February 16, 2021",
+      "initialRegistration": "February 17, 2021"
+    },
+    {
+      "name": "IAOB-1021",
+      "image": "/landing/images/certifications/IAOB-1021.webp"
+    }
+  ],
+  "clients": [
+    { "name": "aptiv",               "logo": "/landing/images/carrousel/aptiv-logo.webp" },
+    { "name": "daimler",             "logo": "/landing/images/carrousel/daimler.webp" },
+    { "name": "dhoot",               "logo": "/landing/images/carrousel/dhoot-logo.webp" },
+    { "name": "fca",                 "logo": "/landing/images/carrousel/fca.webp" },
+    { "name": "fme",                 "logo": "/landing/images/carrousel/fme-logo-new.webp" },
+    { "name": "gm",                  "logo": "/landing/images/carrousel/gm.png" },
+    { "name": "hesto",               "logo": "/landing/images/carrousel/hesto-logo.jpg" },
+    { "name": "honda two wheeler",   "logo": "/landing/images/carrousel/honda-two-wheeler.webp" },
+    { "name": "honda",               "logo": "/landing/images/carrousel/honda.webp" },
+    { "name": "hyundai",             "logo": "/landing/images/carrousel/hyundai.png" },
+    { "name": "isuzu",               "logo": "/landing/images/carrousel/isuzu.webp" },
+    { "name": "john deere",          "logo": "/landing/images/carrousel/john-deere.webp" },
+    { "name": "mahindra",            "logo": "/landing/images/carrousel/mahindra.webp" },
+    { "name": "mg",                  "logo": "/landing/images/carrousel/mg.webp" },
+    { "name": "naipno",              "logo": "/landing/images/carrousel/naipno-logo.webp" },
+    { "name": "psa",                 "logo": "/landing/images/carrousel/psa.webp" },
+    { "name": "renault",             "logo": "/landing/images/carrousel/renault.png" },
+    { "name": "royal enfield",       "logo": "/landing/images/carrousel/royal-enfield.webp" },
+    { "name": "suzuki",              "logo": "/landing/images/carrousel/suzuki.webp" },
+    { "name": "tata",                "logo": "/landing/images/carrousel/tata.webp" },
+    { "name": "toyota",              "logo": "/landing/images/carrousel/toyota.webp" },
+    { "name": "tvs motor logo",      "logo": "/landing/images/carrousel/tvs-motor-logo.webp" },
+    { "name": "unominda",            "logo": "/landing/images/carrousel/unominda.ns_big-1.webp" },
+    { "name": "volkswagon",          "logo": "/landing/images/carrousel/volkswagon.webp" },
+    { "name": "yamaha",              "logo": "/landing/images/carrousel/yamaha.webp" },
+    { "name": "yazaki",              "logo": "/landing/images/carrousel/yazaki-logo.webp" }
+  ]
+}
