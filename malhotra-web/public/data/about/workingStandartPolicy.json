@@ -1,0 +1,76 @@
+{
+  "workingStandardsPolicy": {
+    "policy": {
+      "headline": "Policy",
+      "text": "Malhotra Cable, operating in the automotive cable industry and exporting to various countries, aims to be a preferred business partner in terms of quality, cost, and delivery time, while respecting its employees and society in all its operations.\n\nThis policy outlines the core values, principles, and commitment to continuous improvement expected from company employees in the performance of their duties. We expect all employees to respect privacy, personal rights, and individual dignity. The company does not tolerate any discriminatory behavior or harassment based on gender, age, political opinion, race, nationality, ethnic origin, or religion. Harassment, threats, violence, and bullying are strictly prohibited. Using one's position for bribery, corruption, or disclosure of confidential or trade secret information is strictly forbidden.\n\nEmployees, customers, suppliers, subcontractors, and business partners are expected to comply with applicable laws and regulations, our Working Standards Policy, Ethical Rules Policy, Anti-Bribery and Anti-Corruption Policy, and Zero Tolerance Policy. Malhotra Kablo reserves the right to terminate relations with parties who fail to comply.\n\nWe expect our employees to act with awareness and to report any violations to the Ethics Committee by emailing info@malhotracables.com.tr."
+    },
+    "generalPrinciples": [
+      {
+        "title": "Integrity",
+        "description": "All operations are conducted with honesty and truthfulness in all relationships with stakeholders."
+      },
+      {
+        "title": "Transparency",
+        "description": "Employees provide clear, complete, and timely information in dealings with all stakeholders."
+      },
+      {
+        "title": "Impartiality",
+        "description": "No discrimination based on religion, language, race, gender, political opinion, etc.; fair and equal treatment for all."
+      },
+      {
+        "title": "Confidentiality",
+        "description": "Trade secrets, intellectual property, financial, HR, and other sensitive information are protected and only shared when necessary within ethical and legal limits."
+      },
+      {
+        "title": "Compliance with Laws and Regulations",
+        "description": "The company closely follows and complies with legal frameworks and regulations."
+      },
+      {
+        "title": "Fair Business, Advertising, and Competition",
+        "description": "Full compliance with laws and standards in all countries where we operate."
+      },
+      {
+        "title": "Intellectual Property Protection",
+        "description": "Protection and responsible use of intellectual property rights."
+      },
+      {
+        "title": "Anti-Corruption and Anti-Bribery",
+        "description": "No tolerance for bribery, corruption, conflicts of interest, or unethical behavior. Gifts may only be accepted if under 1000 TL in value or if shared company-wide."
+      },
+      {
+        "title": "Identity Protection and No Retaliation",
+        "description": "Whistleblowers are protected, and their identities are kept confidential."
+      }
+    ],
+    "workingStandards": [
+      {
+        "title": "Freely Chosen Employment",
+        "description": "No forced labor, slavery, human trafficking, or abuse. Employees are not forced to pay hiring fees, and personal freedoms are respected."
+      },
+      {
+        "title": "Young Workers and Interns",
+        "description": "No child labor. Young workers are employed in accordance with local laws and not assigned hazardous tasks."
+      },
+      {
+        "title": "Working Hours",
+        "description": "In accordance with national laws, collective agreements, and international standards."
+      },
+      {
+        "title": "Wages and Benefits",
+        "description": "Legal wages and benefits are paid as required."
+      },
+      {
+        "title": "Humane Treatment",
+        "description": "Respect for human rights, no tolerance for violence or inhumane treatment."
+      },
+      {
+        "title": "Non-Discrimination",
+        "description": "No discrimination in wages, promotions, training, hiring, or employment practices."
+      },
+      {
+        "title": "Freedom of Association and Collective Bargaining",
+        "description": "Employees may freely join or not join unions and engage in peaceful assembly, without fear of retaliation."
+      }
+    ]
+  }
+}

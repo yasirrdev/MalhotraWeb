@@ -113,16 +113,16 @@ export default function Navbar() {
                   className="absolute top-full left-0 mt-1 w-48 bg-white shadow-lg rounded-md py-2 z-10"
                 >
                   <Link
-                    href="/about/core-values"
+                    href="/about/strategyMission&Vision"
                     className="block px-4 py-3 text-sm text-gray-800 hover:text-primary hover:bg-gray-50 transition-colors duration-150"
                   >
-                    Core Values
+                    Mission & Vision
                   </Link>
                   <Link
-                    href="/about/certifications"
+                    href="/about/workingStandardsPolicy"
                     className="block px-4 py-3 text-sm text-gray-800 hover:text-primary hover:bg-gray-50 transition-colors duration-150"
                   >
-                    Certifications
+                    Standards Policy
                   </Link>
                 </div>
               )}
