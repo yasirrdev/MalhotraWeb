@@ -1,0 +1,46 @@
+{
+  "pageHeader": {
+    "title":"Mission, Vision & Values",
+    "description":"Our guiding principles that define who we are and what we stand for"
+  },
+  "ctaSection": {
+    "title":"Join Us on Our Journey",
+    "description":"Discover how our mission, vision, and values drive everything we do at Malhotra Cables",
+    "button_1":"Contact Us",
+    "button_2":"Join Our Team"
+  },
+  "purpose": {
+    "title": "Purpose",
+    "content": "The company management is aware of the ever-changing and rapidly developing nature of the business world and the resulting competitive environment, and aims to become a globally recognized company. To achieve this goal:"
+  },
+  "strategy": {
+    "title": "Our Strategy",
+    "content": "To ensure sustainable growth within the company by encouraging the participation of all employees in identifying the risks and opportunities of existing processes, managing all processes effectively, continuously monitoring performance data, and taking timely actions to achieve set targets."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "content": "To create value for our customers by producing high-quality products at low cost through the efficient use of resources in variable market conditions, delivering these products at the right time and in the right quantity, and offering services that make a difference."
+  },
+  "values": {
+    "title": "Our Values",
+    "description":"The principles that guide our actions and decisions",
+    "items": [
+      "Respect for people and the environment",
+      "Reliability",
+      "Consistency",
+      "Transparency",
+      "Flexibility",
+      "Sense of responsibility",
+      "Opposition to unfair gain",
+      "Commitment to business ethics",
+      "Prevention of information leakage",
+      "Compliance with ethical rules",
+      "Adherence to escalation procedures",
+      "Commitment to quality"
+    ]
+  },
+  "vision": {
+    "title": "Our Vision",
+    "content": "To become the preferred primary solution partner for our current and potential customers."
+  }
+}

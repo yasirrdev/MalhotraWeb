@@ -20,8 +20,6 @@ export default function Home() {
 // force commit
   return (
     <main className="flex min-h-screen flex-col font-montserrat">
-      <Navbar />
-
       <section className="relative h-[80vh] min-h-[600px] w-full overflow-hidden pt-20">
         <div className="absolute inset-0 bg-black/40 z-10" />
         <Image
@@ -186,8 +184,6 @@ export default function Home() {
           <ClientLogoSlider clients={clients} />
         </div>
       </section>
-
-      <Footer />
     </main>
   );
 }
