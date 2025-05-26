@@ -1,15 +1,20 @@
 "use client"
 
 import Image from "next/image"
+import SectionHeader from "@/components/about/sectionHeader"
 
 interface ClientLogoSliderProps {
   clients: {
     name: string
     logo: string
   }[]
+  headerClientSection: {
+    title: string
+    description?: string
+  }
 }
 
-export default function ClientLogoSlider({ clients }: ClientLogoSliderProps) {
+export default function ClientLogoSlider({ clients, headerClientSection }: ClientLogoSliderProps) {
   const priorityKeys = [
     "yazaki",
     "aptiv",
@@ -51,14 +56,20 @@ export default function ClientLogoSlider({ clients }: ClientLogoSliderProps) {
   )
 
   return (
-    <div className="space-y-8">
-      {renderRow(topItems, "top")}
-      {renderRow(bottomItems, "bottom")}
+    <section className="py-20 bg-gray-50">
+      <div className="container mx-auto px-4 sm:px-6">
+        <SectionHeader title={headerClientSection.title} description={headerClientSection.description}/>
+
+        <div className="space-y-8">
+          {renderRow(topItems, "top")}
+          {renderRow(bottomItems, "bottom")}
+        </div>
+      </div>
 
       <style jsx global>{`
         .slider-content {
-          width: max-content;       /* Para que el contenedor crezca al tamaño de todo el contenido */
-          display: flex;            /* Logos en fila */
+          width: max-content;
+          display: flex;
           animation: slide 30s linear infinite;
         }
 
@@ -71,6 +82,6 @@ export default function ClientLogoSlider({ clients }: ClientLogoSliderProps) {
           }
         }
       `}</style>
-    </div>
+    </section>
   )
 }

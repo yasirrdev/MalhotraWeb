@@ -1,4 +1,24 @@
 {
+  "hero": {
+    "backgroundImage": "/landing/images/cables.png",
+    "title": "On the Path of Continuous Improvement",
+    "subtitle": "20 years of excellence in manufacturing automotive, data-communication, and high-voltage cables.",
+    "button": {
+      "text": "Explore Our Products",
+      "icon": "ArrowRight",
+      "link": "#products"  
+    }
+  },
+  "stats": [
+    { "end": 100,  "label": "Customers" },
+    { "end": 100,  "label": "Vendors" },
+    { "end": 1000, "label": "Employees" },
+    { "end": 10,   "label": "Locations" }
+  ],
+  "headerProductsSection": {
+    "title": "Our Products",
+    "description": "Delivering high-quality cable solutions for diverse industries and applications"
+  },
   "products": [
     {
       "title": "Automotive Cables",
@@ -25,6 +45,10 @@
       "link": "/products/custom"
     }
   ],
+  "headerValuesSection": {
+    "title": "Our Core Values",
+    "description": "Dedicated to understanding and meeting customer needs"
+  },
   "coreValues": [
     {
       "title": "Quality Excellence",
@@ -42,6 +66,17 @@
       "icon": "Users"
     }
   ],
+  "headerCertificationsSection": {
+    "title": "Our Certifications",
+    "description": "Industry-leading accreditations and safety standards"
+  },
+  "certificationLabels": {
+    "asrNumber": "ASR No",
+    "iatfNo": "IATF No",
+    "issueDate": "Date of Certification",
+    "expirationDate": "Expiration Date",
+    "initialRegistration": "Initial Registration"
+  },
  "certifications": [
     {
       "name": "ISO 14001:2015",
@@ -73,6 +108,10 @@
       "image": "/landing/images/certifications/IAOB-1021.webp"
     }
   ],
+  "headerClientSection":{
+    "title":"Our Clients & OEM Approvals",
+    "description":"Trusted by leading companies across industries"
+  },
   "clients": [
     { "name": "aptiv",               "logo": "/landing/images/carrousel/aptiv-logo.webp" },
     { "name": "daimler",             "logo": "/landing/images/carrousel/daimler.webp" },

@@ -52,11 +52,10 @@ export default function ProductsPage() {
 
   return (
     <div className="container mx-auto py-6 px-4">
-      {/* Hero Banner */}
       <div className="relative w-full h-[300px] overflow-hidden mb-12">
         <div className="relative w-full h-[300px] overflow-hidden mb-12">
           <Image
-            src="/products/cables-banner.jpg"
+            src="/products/cablesBanner.png"
             alt="Our Products"
             fill
             sizes="100vw"
@@ -73,7 +72,6 @@ export default function ProductsPage() {
         </div>
       </div>
 
-      {/* Browse Products Section */}
       <div className="mb-10">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-6">
           <h2 className="text-2xl font-bold heading-primary">Browse Our Products</h2>
@@ -99,7 +97,6 @@ export default function ProductsPage() {
           </div>
         </div>
 
-        {/* Category Tabs */}
         <div className="flex overflow-x-auto scrollbar-hide gap-0 mb-8">
           {categories.map((category, index) => (
             <button
@@ -114,7 +111,6 @@ export default function ProductsPage() {
           ))}
         </div>
 
-        {/* Products Grid */}
         <ProductGrid products={filteredProducts} />
       </div>
     </div>
