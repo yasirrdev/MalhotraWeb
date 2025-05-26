@@ -1,20 +1,15 @@
 "use client"
 
 import Image from "next/image"
-import SectionHeader from "@/components/about/sectionHeader"
 
 interface ClientLogoSliderProps {
   clients: {
     name: string
     logo: string
   }[]
-  headerClientSection: {
-    title: string
-    description?: string
-  }
 }
 
-export default function ClientLogoSlider({ clients, headerClientSection }: ClientLogoSliderProps) {
+export default function ClientLogoSlider({ clients }: ClientLogoSliderProps) {
   const priorityKeys = [
     "yazaki",
     "aptiv",
@@ -46,7 +41,7 @@ export default function ClientLogoSlider({ clients, headerClientSection }: Clien
                 alt={client.name}
                 width={120}
                 height={80}
-                className="object-contain max-h-16 grayscale group-hover:grayscale-0 transition-all duration-600"
+                className="object-contain max-h-16 transition-all duration-600"
               />
             </div>
           </div>
@@ -56,20 +51,14 @@ export default function ClientLogoSlider({ clients, headerClientSection }: Clien
   )
 
   return (
-    <section className="py-20 bg-gray-50">
-      <div className="container mx-auto px-4 sm:px-6">
-        <SectionHeader title={headerClientSection.title} description={headerClientSection.description}/>
-
-        <div className="space-y-8">
-          {renderRow(topItems, "top")}
-          {renderRow(bottomItems, "bottom")}
-        </div>
-      </div>
+    <div className="space-y-8">
+      {renderRow(topItems, "top")}
+      {renderRow(bottomItems, "bottom")}
 
       <style jsx global>{`
         .slider-content {
-          width: max-content;
-          display: flex;
+          width: max-content;       
+          display: flex;            
           animation: slide 30s linear infinite;
         }
 
@@ -82,6 +71,6 @@ export default function ClientLogoSlider({ clients, headerClientSection }: Clien
           }
         }
       `}</style>
-    </section>
+    </div>
   )
 }

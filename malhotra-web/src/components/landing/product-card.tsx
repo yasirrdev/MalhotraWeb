@@ -61,8 +61,8 @@ export default function ProductCard({ product, cable }: ProductCardProps) {
           <Button
             variant="outline"
             className={cn(
-              "group transition-all duration-300",
-              isHovered ? "bg-primary text-white hover:bg-primary/90" : "",
+              "group transition-all duration-300 bg-primary text-white",
+              isHovered ? "bg-secondary text-white hover:bg-secondary/90" : "",
             )}
             asChild
           >
