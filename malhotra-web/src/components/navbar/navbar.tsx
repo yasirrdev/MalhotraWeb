@@ -119,6 +119,12 @@ export default function Navbar() {
                     Mission & Vision
                   </Link>
                   <Link
+                    href="/about/policy"
+                    className="block px-4 py-3 text-sm text-gray-800 hover:text-primary hover:bg-gray-50 transition-colors duration-150"
+                  >
+                    Policy
+                  </Link>
+                  <Link
                     href="/about/workingStandardsPolicy"
                     className="block px-4 py-3 text-sm text-gray-800 hover:text-primary hover:bg-gray-50 transition-colors duration-150"
                   >
@@ -128,10 +134,10 @@ export default function Navbar() {
               )}
             </div>
             <Link
-              href="/contact"
+              href="/suggestions-and-complaints"
               className="text-gray-800 hover:text-primary font-semibold transition-colors duration-150 text-sm py-2 px-1"
             >
-              Contact
+              Suggestions & Complaints
             </Link>
             <Link
               href="/career"
@@ -206,27 +212,34 @@ export default function Navbar() {
               </button>
               <div className={cn("pl-4 space-y-2 mt-2", isAboutDropdownOpen ? "block" : "hidden")}>
                 <Link
-                  href="/about/core-values"
+                  href="/about/strategyMission&Vision"
                   className="block py-3 px-4 text-base font-medium text-gray-800 hover:text-primary rounded-md hover:bg-gray-50 transition-colors duration-150"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
-                  Core Values
+                  Mission & Vision
                 </Link>
                 <Link
-                  href="/about/certifications"
+                  href="/about/policy"
                   className="block py-3 px-4 text-base font-medium text-gray-800 hover:text-primary rounded-md hover:bg-gray-50 transition-colors duration-150"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
-                  Certifications
+                  Policy
+                </Link>
+                <Link
+                  href="/about/workingStandardsPolicy"
+                  className="block py-3 px-4 text-base font-medium text-gray-800 hover:text-primary rounded-md hover:bg-gray-50 transition-colors duration-150"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  Standards Policy
                 </Link>
               </div>
             </div>
             <Link
-              href="/contact"
+              href="/suggestions-and-complaints"
               className="block py-3 px-4 text-lg font-semibold text-gray-800 hover:text-primary rounded-md hover:bg-gray-50 transition-colors duration-150"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Contact
+              Suggestions & Complaints
             </Link>
             <Link
               href="/career"
