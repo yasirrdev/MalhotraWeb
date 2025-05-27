@@ -19,6 +19,18 @@ interface WorkingStandardsPolicy {
     title: string
     description: string
   }[]
+  pageHeader:{
+    title: string
+    description: string
+  }
+  headerStandarSection:{
+    title: string
+    description: string
+  }
+  headerPrinciplesSection:{
+    title: string
+    description: string
+  }
 }
 
 export default function WorkingStandardsPage() {
@@ -59,13 +71,10 @@ export default function WorkingStandardsPage() {
 
   return (
     <div>
-      <PageHeader
-        title="Working Standards Policy"
-        description="Our commitment to ethical business practices and fair treatment of all stakeholders"
-      />
+      <PageHeader title={policyData.pageHeader.title} description={policyData.pageHeader.description}/>
       <PolicySection policy={policyData.policy} />
-      <PrinciplesSection principles={policyData.generalPrinciples} />
-      <StandardsSection standards={policyData.workingStandards} />
+      <PrinciplesSection sectionHeader={policyData.headerPrinciplesSection} principles={policyData.generalPrinciples} />
+      <StandardsSection standards={policyData.workingStandards}  sectionHeader={policyData.headerStandarSection}/>
     </div>
   )
 }

@@ -12,10 +12,13 @@ interface StandardProps {
 }
 
 interface StandardsSectionProps {
+  sectionHeader: {
+    title: string
+    description?: string
+  }
   standards: StandardProps[]
 }
 
-// Map of standard keywords to icons
 const standardIcons: Record<string, JSX.Element> = {
   Employment: <Briefcase className="h-6 w-6" />,
   Workers: <Users className="h-6 w-6" />,
@@ -25,14 +28,13 @@ const standardIcons: Record<string, JSX.Element> = {
   "Non-Discrimination": <UserCheck className="h-6 w-6" />,
   Freedom: <Users className="h-6 w-6" />,
 }
-
-// Function to find the appropriate icon based on the standard title
+ 
 const findIcon = (title: string): JSX.Element => {
   const key = Object.keys(standardIcons).find((k) => title.includes(k))
   return key ? standardIcons[key] : <Briefcase className="h-6 w-6" />
 }
 
-export default function StandardsSection({ standards }: StandardsSectionProps) {
+export default function StandardsSection({ sectionHeader, standards }: StandardsSectionProps) {
   const [expandedIndex, setExpandedIndex] = useState<number | null>(null)
 
   const toggleAccordion = (index: number) => {
@@ -43,8 +45,8 @@ export default function StandardsSection({ standards }: StandardsSectionProps) {
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4 sm:px-6">
         <SectionHeader
-          title="Working Standards"
-          description="The standards we uphold in our workplace and business relationships"
+           title={sectionHeader.title}
+          description={sectionHeader.description}
         />
 
         <div className="mt-12 max-w-3xl mx-auto">

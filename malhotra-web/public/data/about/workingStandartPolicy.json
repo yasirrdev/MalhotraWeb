@@ -71,6 +71,19 @@
         "title": "Freedom of Association and Collective Bargaining",
         "description": "Employees may freely join or not join unions and engage in peaceful assembly, without fear of retaliation."
       }
-    ]
+    ],
+    "pageHeader": {
+      "title": "Working Standards Policy",
+      "description": "Our commitment to ethical business practices and fair treatment of all stakeholders"
+    },
+    "headerStandarSection": {
+      "title": "Working Standards",
+      "description":"The standards we uphold in our workplace and business relationships"
+    },
+    "headerPrinciplesSection": {
+      "title": "General Principles",
+      "description":"The core principles that guide our business practices"
+    }
+    
   }
 }

@@ -1,15 +1,27 @@
-"use client"
+// components/landing/ClientLogoSlider.tsx
 
-import Image from "next/image"
+"use client";
 
-interface ClientLogoSliderProps {
-  clients: {
-    name: string
-    logo: string
-  }[]
+import Image from "next/image";
+import SectionHeader from "@/components/about/sectionHeader";
+
+interface Client {
+  name: string;
+  logo: string;
 }
 
-export default function ClientLogoSlider({ clients }: ClientLogoSliderProps) {
+interface ClientLogoSliderProps {
+  headerClientSection: {
+    title: string;
+    description?: string;
+  };
+  clients: Client[];
+}
+
+export default function ClientLogoSlider({
+  headerClientSection,
+  clients,
+}: ClientLogoSliderProps) {
   const priorityKeys = [
     "yazaki",
     "aptiv",
@@ -17,18 +29,18 @@ export default function ClientLogoSlider({ clients }: ClientLogoSliderProps) {
     "fme",
     "hesto",
     "naipno",
-    "unominda"
-  ]
+    "unominda",
+  ];
 
-  const topClients = clients.filter(c =>
+  const topClients = clients.filter((c) =>
     priorityKeys.includes(c.name.toLowerCase())
-  )
+  );
   const bottomClients = clients.filter(
-    c => !priorityKeys.includes(c.name.toLowerCase())
-  )
+    (c) => !priorityKeys.includes(c.name.toLowerCase())
+  );
 
-  const topItems = [...topClients, ...topClients]
-  const bottomItems = [...bottomClients, ...bottomClients]
+  const topItems = [...topClients, ...topClients];
+  const bottomItems = [...bottomClients, ...bottomClients];
 
   const renderRow = (items: typeof topItems, rowId: string) => (
     <div key={rowId} className="w-full overflow-hidden">
@@ -48,20 +60,30 @@ export default function ClientLogoSlider({ clients }: ClientLogoSliderProps) {
         ))}
       </div>
     </div>
-  )
+  );
 
   return (
-    <div className="space-y-8">
-      {renderRow(topItems, "top")}
-      {renderRow(bottomItems, "bottom")}
+    <section className="py-20 bg-gray-50">
+      <div className="container mx-auto px-4 sm:px-6">
+        {/* Cabecera de la sección */}
+        <SectionHeader
+          title={headerClientSection.title}
+          description={headerClientSection.description}
+        />
+
+        {/* Carrusel de logos */}
+        <div className="space-y-8 mt-8">
+          {renderRow(topItems, "top")}
+          {renderRow(bottomItems, "bottom")}
+        </div>
+      </div>
 
       <style jsx global>{`
         .slider-content {
-          width: max-content;       
-          display: flex;            
+          width: max-content;
+          display: flex;
           animation: slide 30s linear infinite;
         }
-
         @keyframes slide {
           0% {
             transform: translateX(0);
@@ -71,6 +93,6 @@ export default function ClientLogoSlider({ clients }: ClientLogoSliderProps) {
           }
         }
       `}</style>
-    </div>
-  )
+    </section>
+  );
 }
