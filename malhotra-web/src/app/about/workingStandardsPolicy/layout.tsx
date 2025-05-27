@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Products  - Malhotra",
+  title: "Standars Policy - Malhotra",
   description: "Explore our range of high-quality cables and wires.",
 };
 
@@ -12,9 +12,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className="default-class"
-      >
+      <body>
         {children}
       </body>
     </html>

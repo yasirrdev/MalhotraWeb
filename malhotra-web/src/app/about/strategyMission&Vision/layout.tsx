@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Products  - Malhotra",
+  title: "Mission & Vision  - Malhotra",
   description: "Explore our range of high-quality cables and wires.",
 };
 

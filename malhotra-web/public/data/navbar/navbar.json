@@ -1,0 +1,14 @@
+[
+  { "key": "home",     "label": "Home",     "href": "/" },
+  { "key": "products", "label": "Products", "href": "/products" },
+  {
+    "key": "about",
+    "label": "About",
+    "items": [
+      { "key": "mission", "label": "Mission & Vision", "href": "/about/strategyMission&Vision" },
+      { "key": "policy",  "label": "Standards Policy",  "href": "/about/workingStandardsPolicy" }
+    ]
+  },
+  { "key": "contact",  "label": "Contact",  "href": "/contact" },
+  { "key": "career",   "label": "Career",   "href": "/career" }
+]
