@@ -108,6 +108,13 @@
       "image": "/landing/images/certifications/IAOB-1021.webp"
     }
   ],
+  "director": {
+    "header": "Message from the Director",
+    "message": "“At Malhotra Cables, our commitment to quality and innovation has driven our success for over two decades. We believe in building lasting relationships with our customers by delivering products that exceed expectations. Our journey of continuous improvement reflects our dedication to excellence in everything we do.”",
+    "name": "Rajiv Malhotra",
+    "title": "Managing Director, Malhotra Cables",
+    "image": "/landing/images/rajiv_malhotra.jpg"
+  },
   "headerClientSection":{
     "title":"Our Clients & OEM Approvals",
     "description":"Trusted by leading companies across industries"

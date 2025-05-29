@@ -1,22 +1,15 @@
-import type { Metadata } from "next";
+import type { Metadata } from "next"
+import React, { ReactNode } from "react"
 
 export const metadata: Metadata = {
-  title: "Mission & Vision  - Malhotra",
+  title: "Mission & Vision - Malhotra",
   description: "Explore our range of high-quality cables and wires.",
-};
+}
 
-export default function RootLayout({
+export default function StrategyLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html lang="en">
-      <body
-        className="default-class"
-      >
-        {children}
-      </body>
-    </html>
-  );
+}: {
+  children: ReactNode
+}) {
+  return <div className="default-class">{children}</div>
 }

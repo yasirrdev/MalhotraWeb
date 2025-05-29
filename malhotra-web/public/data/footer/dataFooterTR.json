@@ -1,0 +1,30 @@
+{
+  "company": {
+    "name": "Malhotra Cables",
+    "description": "Otomotiv, veri iletişimi ve yüksek gerilim kabloları üretiminde 20 yıllık mükemmellik.",
+    "social": [
+      { "key": "instagram", "url": "#" },
+      { "key": "twitter",   "url": "#" },
+      { "key": "facebook",  "url": "#" },
+      { "key": "linkedin",  "url": "#" }
+    ]
+  },
+  "quickLinks": [
+    { "key": "about",    "label": "Hakkımızda",      "href": "/about" },
+    { "key": "products", "label": "Ürünler",         "href": "/products" },
+    { "key": "services", "label": "Hizmetler",       "href": "/services" },
+    { "key": "careers",  "label": "Kariyer",         "href": "/careers" },
+    { "key": "contact",  "label": "Bize Ulaşın",     "href": "/contact" }
+  ],
+  "productLinks": [
+    { "key": "automotive",         "label": "Otomotiv Kabloları",         "href": "/products/automotive" },
+    { "key": "data-communication", "label": "Veri İletişim Kabloları",     "href": "/products/data-communication" },
+    { "key": "high-voltage",       "label": "Yüksek Gerilim Kabloları",    "href": "/products/high-voltage" },
+    { "key": "custom",             "label": "Özel Çözümler",               "href": "/products/custom" }
+  ],
+  "contact": {
+    "address": "123 Sanayi Bölgesi, Delhi NCR, Hindistan - 110001",
+    "phone":   "+91 11 2345 6789",
+    "email":   "info@malhotracables.com"
+  }
+}

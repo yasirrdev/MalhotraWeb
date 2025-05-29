@@ -1,0 +1,232 @@
+[
+  {
+    "id": "1",
+    "name": "Otomobiller için Vinil Klorür İzoleli Düşük Gerilim Kabloları",
+    "category": "Otomotiv Kablosu",
+    "cableType": "AV, AVF, & HEB",
+    "insulationMaterial": "PVC",
+    "temperatureRange": "-40 °C ila +80 °C",
+    "referenceStandard": "JASO D 611:2014",
+    "image": "/products/cable-1.webp"
+  },
+  {
+    "id": "2",
+    "name": "Otomobiller için İnce Duvar Vinil Klorür İzoleli Düşük Gerilim Kabloları",
+    "category": "Otomotiv Kablosu",
+    "cableType": "AVS, AVSF",
+    "insulationMaterial": "PVC",
+    "temperatureRange": "-40 °C ila +80 °C",
+    "referenceStandard": "JASO D 611:2014",
+    "image": "/products/cable-2.webp"
+  },
+  {
+    "id": "3",
+    "name": "Otomobiller için Vinil Klorür İzoleli Düşük Gerilim Kabloları",
+    "category": "Otomotiv Kablosu",
+    "cableType": "AVSS, AVSSF",
+    "insulationMaterial": "PVC",
+    "temperatureRange": "-40 °C ila +80 °C",
+    "referenceStandard": "JASO D 611:2014",
+    "image": "/products/cable-3.webp"
+  },
+  {
+    "id": "4",
+    "name": "Otomobiller için Çok İnce Duvar PVC İzoleli Isıya Dayanıklı Düşük Gerilim Kabloları",
+    "category": "Otomotiv Kablosu",
+    "cableType": "AVSSHF",
+    "insulationMaterial": "PVC",
+    "temperatureRange": "-40 °C ila +100 °C",
+    "referenceStandard": "JASO D 611:2014",
+    "image": "/products/cable-4.webp"
+  },
+  {
+    "id": "5",
+    "name": "Otomobiller için Çapraz Bağlantılı Vinil Klorür İzoleli Isıya Dayanıklı Düşük Gerilim Kabloları",
+    "category": "Otomotiv Kablosu",
+    "cableType": "AVX",
+    "insulationMaterial": "Çapraz Bağlantılı PVC",
+    "temperatureRange": "-40 °C ila +80 °C",
+    "referenceStandard": "JASO D 611:2014",
+    "image": "/products/cable-5.webp"
+  },
+  {
+    "id": "6",
+    "name": "Otomobiller için Çok İnce Duvar Çapraz Bağlantılı PVC İzoleli Isıya Dayanıklı Düşük Gerilim Kabloları",
+    "category": "Otomotiv Kablosu",
+    "cableType": "AVSSX",
+    "insulationMaterial": "PVC",
+    "temperatureRange": "-40 °C ila +80 °C",
+    "referenceStandard": "JASO D 611:2014",
+    "image": "/products/cable-6.webp"
+  },
+  {
+    "id": "7",
+    "name": "Otomobiller için Çok İnce Duvar Çapraz Bağlantılı Polietilen İzoleli Isıya Dayanıklı Düşük Gerilim Kabloları",
+    "category": "Otomotiv Kablosu",
+    "cableType": "AESSX",
+    "insulationMaterial": "Çapraz Bağlantılı Polietilen",
+    "temperatureRange": "-40 °C ila +120 °C",
+    "referenceStandard": "JASO D 611:2014",
+    "image": "/products/cable-7.webp"
+  },
+  {
+    "id": "8",
+    "name": "Otomobiller için İnce Duvar Vinil Klorür İzoleli Düşük Gerilim Kabloları",
+    "category": "Otomotiv Kablosu",
+    "cableType": "CAVS, ACCAVS",
+    "insulationMaterial": "PVC",
+    "temperatureRange": "-40 °C ila +80 °C",
+    "referenceStandard": "JASO D 611:2014",
+    "image": "/products/cable-8.webp"
+  },
+  {
+    "id": "9",
+    "name": "Otomobiller için Ultra İnce Duvar Vinil Klorür İzoleli Düşük Gerilim Kabloları",
+    "category": "Otomotiv Kablosu",
+    "cableType": "CIVUS, ACCIVUS",
+    "insulationMaterial": "PVC",
+    "temperatureRange": "-40 °C ila +85 °C",
+    "referenceStandard": "JASO D 611:2014",
+    "image": "/products/cable-9.webp"
+  },
+  {
+    "id": "10",
+    "name": "Otomobiller için Çok İnce Duvar Vinil Klorür İzoleli Isıya Dayanıklı Düşük Gerilim Kabloları",
+    "category": "Otomotiv Kablosu",
+    "cableType": "IVSSHF",
+    "insulationMaterial": "PVC",
+    "temperatureRange": "-40 °C ila +100 °C",
+    "referenceStandard": "JASO D 611:2014",
+    "image": "/products/cable-10.webp"
+  },
+  {
+    "id": "11",
+    "name": "Otomobiller için Vinil Klorür İzoleli Düşük Gerilim Kabloları",
+    "category": "Otomotiv Kablosu",
+    "cableType": "EB",
+    "insulationMaterial": "PVC",
+    "temperatureRange": "-40 °C ila +80 °C",
+    "referenceStandard": "JASO D 611:2014",
+    "image": "/products/cable-11.webp"
+  },
+  {
+    "id": "12",
+    "name": "Düşük Gerilimli, Halojensiz XLPE, Ultra İnce İzolasyonlu Kablo",
+    "category": "Otomotiv Kablosu",
+    "cableType": "PSA (T3)",
+    "insulationMaterial": "T3 XLPE",
+    "temperatureRange": "-40 °C ila +125 °C",
+    "referenceStandard": "B25 1110",
+    "image": "/products/cable-12.webp"
+  },
+  {
+    "id": "13",
+    "name": "Otomobiller için Çok İnce Duvar Vinil Klorür İzoleli Isıya Dayanıklı Düşük Gerilim Kabloları",
+    "category": "Veri İletişim Kablosu",
+    "cableType": "PSA (T4)",
+    "insulationMaterial": "T4 XLPE",
+    "temperatureRange": "-40 °C ila +150 °C",
+    "referenceStandard": "B25 1110",
+    "image": "/products/cable-13.webp"
+  },
+  {
+    "id": "14",
+    "name": "600 V AC / 1000 V DC Kabloları",
+    "category": "Yüksek Gerilim Kablosu",
+    "cableType": "HV CABLE (T3)",
+    "insulationMaterial": "XLPE",
+    "temperatureRange": "-40 °C ila +125 °C",
+    "referenceStandard": "ES-AU5T-1A348-AA",
+    "image": "/products/cable-14.webp"
+  },
+  {
+    "id": "15",
+    "name": "600 V AC / 1000 V DC – 1000 V AC / 1500 V DC Kabloları",
+    "category": "Yüksek Gerilim Kablosu",
+    "cableType": "HV CABLE (T4)",
+    "insulationMaterial": "XLPE",
+    "temperatureRange": "-40 °C ila +150 °C",
+    "referenceStandard": "ES-AU5T-1A348-AA",
+    "image": "/products/cable-15.webp"
+  },
+  {
+    "id": "16",
+    "name": "AVSS Çekirdekli, Bakır Şeritli Ekranlı, PVC Kılıflı Düşük Gerilimli Otomotiv Kablosu (İnce Kılıflı Tip)",
+    "category": "Özel Kablo",
+    "cableType": "SHIELDED CABLE",
+    "insulationMaterial": "PVC",
+    "temperatureRange": "-40 °C ila +80 °C",
+    "referenceStandard": "YPES-11-01-180",
+    "image": "/products/cable-16.webp"
+  },
+  {
+    "id": "17",
+    "name": "Düşük Gerilimli Çok İletkenli Bakır Kablo, PVC İzolasyonlu ve PVC Kılıflı",
+    "category": "Özel Kablo",
+    "cableType": "MULTI CORE CABLE",
+    "insulationMaterial": "PVC",
+    "temperatureRange": "-40 °C ila +100 °C",
+    "referenceStandard": "ISO 6722-1:2011",
+    "image": "/products/cable-17.webp"
+  },
+  {
+    "id": "18",
+    "name": "600 V AC veya 900 V DC ve 1000 V AC veya 1500 V DC için yuvarlak, kılıflı, ekranlı veya ekransız tek veya çok çekirdekli bakır iletken kabloların boyutları ve gereksinimleri",
+    "category": "Özel Kablo",
+    "cableType": "SHEATHED CABLE",
+    "insulationMaterial": "XLPE",
+    "temperatureRange": "-40 °C ila +125 °C",
+    "referenceStandard": "ES-AU5T-1A348-AA",
+    "image": "/products/cable-18.webp"
+  },
+  {
+    "id": "19",
+    "name": "Bölüm 1: 60 V veya 600 V tek çekirdekli bakır iletken kablolar için boyutlar, test yöntemleri ve gereksinimler",
+    "category": "Veri İletişim Kablosu",
+    "cableType": "PSA (T4)",
+    "insulationMaterial": "T4 XLPE",
+    "temperatureRange": "-40 °C ila +150 °C",
+    "referenceStandard": "ISO 6722-1:2011, ES-AU5T-1A348-AA, MS.90034, ES91110-05",
+    "image": "/products/cable-19.webp"
+  },
+  {
+    "id": "20",
+    "name": "Bölüm 1: 60 V veya 600 V tek çekirdekli bakır iletken kablolar için boyutlar, test yöntemleri ve gereksinimler",
+    "category": "Veri İletişim Kablosu",
+    "cableType": "T3 Cable",
+    "insulationMaterial": "PVC / PP / T3 XLPE",
+    "temperatureRange": "-40 °C ila +125 °C",
+    "referenceStandard": "ISO 6722-1:2011, ES-AU5T-1A348-AA, MS.90034, ES91110-05",
+    "image": "/products/cable-20.webp"
+  },
+  {
+    "id": "21",
+    "name": "Bölüm 1: 60 V veya 600 V tek çekirdekli bakır iletken kablolar için boyutlar, test yöntemleri ve gereksinimler",
+    "category": "Veri İletişim Kablosu",
+    "cableType": "T4 Cable",
+    "insulationMaterial": "XLPE",
+    "temperatureRange": "-40 °C ila +125 °C",
+    "referenceStandard": "ISO 6722-1:2011, ES-AU5T-1A348-AA, MS.90034, ES91110-05",
+    "image": "/products/cable-21.webp"
+  },
+  {
+    "id": "22",
+    "name": "Otomobiller için Ultra İnce Duvar Vinil Klorür İzoleli Düşük Gerilim Kabloları",
+    "category": "Otomotiv Kablosu",
+    "cableType": "CIVUS, ACCIVUS",
+    "insulationMaterial": "PVC",
+    "temperatureRange": "-40 °C ila +100 °C",
+    "referenceStandard": "YPES-11-01-254",
+    "image": "/products/cable-22.webp"
+  },
+  {
+    "id": "23",
+    "name": "600 V AC veya 900 V DC ve 1000 V AC veya 1500 V DC için yuvarlak, kılıflı, ekranlı veya ekransız tek veya çok çekirdekli bakır iletken kabloların boyutları ve gereksinimleri",
+    "category": "Özel Kablo",
+    "cableType": "ANTI CAPILLARY CABLE",
+    "insulationMaterial": "XLPO",
+    "temperatureRange": "-40 °C ila +150 °C",
+    "referenceStandard": "ES-AU5T-1A348-AA",
+    "image": "/products/cable-23.webp"
+  }
+]

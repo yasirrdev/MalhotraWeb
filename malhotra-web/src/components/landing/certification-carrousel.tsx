@@ -53,7 +53,7 @@ export default function CertificationCarousel({
   const cert = safeCerts[current];
 
   return (
-    <div> {/* wrapper único para ser un solo hijo del grid */}
+    <div className="pt-20 relative z-10">
       <SectionHeader
         title={sectionHeader.title}
         description={sectionHeader.description}
@@ -62,24 +62,24 @@ export default function CertificationCarousel({
       <div className="relative w-full h-64 md:h-80 overflow-hidden">
         <div
           onClick={goPrev}
-          className="absolute inset-y-0 left-0 w-1/2 z-30 cursor-pointer"
+          className="absolute inset-y-0 left-0 w-1/2 z-20 cursor-pointer"
         />
         <div
           onClick={goNext}
-          className="absolute inset-y-0 right-0 w-1/2 z-30 cursor-pointer"
+          className="absolute inset-y-0 right-0 w-1/2 z-20 cursor-pointer"
         />
 
         {safeCerts.map((c, idx) => {
           let cls = "absolute top-1/2 transform transition-all duration-500 ";
           if (idx === current) {
             cls +=
-              "left-1/2 -translate-x-1/2 -translate-y-1/2 scale-100 opacity-100 z-50";
+              "left-1/2 -translate-x-1/2 -translate-y-1/2 scale-100 opacity-100 z-30";
           } else if (idx === prevIdx) {
             cls +=
-              "left-1/4 -translate-x-1/2 -translate-y-1/2 scale-75 opacity-50 z-10";
+              "left-1/4 -translate-x-1/2 -translate-y-1/2 scale-75 opacity-50 z-0";
           } else if (idx === nextIdx) {
             cls +=
-              "left-3/4 -translate-x-1/2 -translate-y-1/2 scale-75 opacity-50 z-10";
+              "left-3/4 -translate-x-1/2 -translate-y-1/2 scale-75 opacity-50 z-0";
           } else {
             cls += "-translate-y-1/2 opacity-0";
           }
@@ -107,7 +107,7 @@ export default function CertificationCarousel({
           type="button"
           aria-label="Anterior"
           onClick={goPrev}
-          className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow hover:bg-gray-100 z-40"
+          className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow hover:bg-gray-100 z-20"
         >
           <ChevronLeft className="w-6 h-6" />
         </button>
@@ -115,12 +115,12 @@ export default function CertificationCarousel({
           type="button"
           aria-label="Siguiente"
           onClick={goNext}
-          className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow hover:bg-gray-100 z-40"
+          className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow hover:bg-gray-100 z-20"
         >
           <ChevronRight className="w-6 h-6" />
         </button>
 
-        <div className="absolute bottom-4 w-full flex justify-center space-x-2 z-40">
+        <div className="absolute bottom-4 w-full flex justify-center space-x-2 z-20">
           {safeCerts.map((_, idx) => (
             <button
               key={idx}

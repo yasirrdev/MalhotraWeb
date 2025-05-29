@@ -1,20 +1,15 @@
-import type { Metadata } from "next";
+import type { Metadata } from "next"
+import { ReactNode } from "react"
 
 export const metadata: Metadata = {
-  title: "Standars Policy - Malhotra",
+  title: "Standards Policy – Malhotra",
   description: "Explore our range of high-quality cables and wires.",
-};
+}
 
-export default function RootLayout({
+export default function PolicyLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html lang="en">
-      <body>
-        {children}
-      </body>
-    </html>
-  );
+}: {
+  children: ReactNode
+}) {
+  return <div className="default-class">{children}</div>
 }

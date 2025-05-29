@@ -1,0 +1,150 @@
+{
+  "hero": {
+    "backgroundImage": "/landing/images/cables.png",
+    "title": "Sürekli İyileşme Yolunda",
+    "subtitle": "Otomotiv, veri iletişimi ve yüksek gerilim kabloları üretiminde 20 yıllık mükemmellik.",
+    "button": {
+      "text": "Ürünlerimizi Keşfedin",
+      "icon": "ArrowRight",
+      "link": "#products"
+    }
+  },
+  "stats": [
+    { "end": 100,  "label": "Müşteriler" },
+    { "end": 100,  "label": "Tedarikçiler" },
+    { "end": 1000, "label": "Çalışanlar" },
+    { "end": 10,   "label": "Konumlar" }
+  ],
+  "headerProductsSection": {
+    "title": "Ürünlerimiz",
+    "description": "Çeşitli endüstriler ve uygulamalar için yüksek kaliteli kablo çözümleri sunuyoruz"
+  },
+  "products": [
+    {
+      "title": "Otomotiv Kabloları",
+      "description": "Üstün dayanıklılık ve güvenilirliğe sahip otomotiv endüstrisi için yüksek performanslı kablolar.",
+      "icon": "Truck",
+      "link": "/products/automotive"
+    },
+    {
+      "title": "Veri İletişim Kabloları",
+      "description": "Çeşitli ortamlarda hızlı ve güvenilir iletim için tasarlanmış gelişmiş veri kabloları.",
+      "icon": "Globe",
+      "link": "/products/data-communication"
+    },
+    {
+      "title": "Yüksek Gerilim Kabloları",
+      "description": "Güvenlik ve performans için tasarlanmış endüstriyel sınıf yüksek gerilim kabloları.",
+      "icon": "Factory",
+      "link": "/products/high-voltage"
+    },
+    {
+      "title": "Özel Çözümler",
+      "description": "Özel gereksinimlerinizi ve uygulamalarınızı karşılamak üzere tasarlanmış kablo çözümleri.",
+      "icon": "CheckCircle",
+      "link": "/products/custom"
+    }
+  ],
+  "headerValuesSection": {
+    "title": "Temel Değerlerimiz",
+    "description": "Müşteri ihtiyaçlarını anlamaya ve karşılamaya adanmış"
+  },
+  "coreValues": [
+    {
+      "title": "Kalite Mükemmelliği",
+      "description": "Sektör standartlarını aşan ürünler sunmaya kendini adamış",
+      "icon": "Award"
+    },
+    {
+      "title": "Yenilikçilik",
+      "description": "Teknolojimizi ve süreçlerimizi sürekli geliştiriyoruz",
+      "icon": "CheckCircle"
+    },
+    {
+      "title": "Müşteri Odaklılık",
+      "description": "Müşteri ihtiyaçlarını anlamaya ve karşılamaya adanmış",
+      "icon": "Users"
+    }
+  ],
+  "headerCertificationsSection": {
+    "title": "Sertifikalarımız",
+    "description": "Sektör lideri akreditasyonlar ve güvenlik standartları"
+  },
+  "certificationLabels": {
+    "asrNumber": "ASR No",
+    "iatfNo": "IATF No",
+    "issueDate": "Sertifika Tarihi",
+    "expirationDate": "Son Geçerlilik Tarihi",
+    "initialRegistration": "İlk Kayıt"
+  },
+  "certifications": [
+    {
+      "name": "ISO 14001:2015",
+      "image": "/landing/images/certifications/ISO_14001-2015.webp",
+      "asrNumber": "4207",
+      "issueDate": "20 Ağustos 2022",
+      "expirationDate": "19 Ağustos 2025",
+      "initialRegistration": "2 Eylül 2010"
+    },
+    {
+      "name": "IATF 16949-2016",
+      "image": "/landing/images/certifications/IATF_16949-2016.webp",
+      "asrNumber": "0375283",
+      "iatfNo": "4316-2",
+      "issueDate": "20 Ağustos 2022",
+      "expirationDate": "19 Ağustos 2025",
+      "initialRegistration": "2 Eylül 2010"
+    },
+    {
+      "name": "ISO 45001-2018",
+      "image": "/landing/images/certifications/ISO_45001-2018.webp",
+      "asrNumber": "8307-1",
+      "issueDate": "17 Şubat 2021",
+      "expirationDate": "16 Şubat 2021",
+      "initialRegistration": "17 Şubat 2021"
+    },
+    {
+      "name": "IAOB-1021",
+      "image": "/landing/images/certifications/IAOB-1021.webp"
+    }
+  ],
+  "director": {
+    "header": "Direktörden Mesaj",
+    "message": "“Malhotra Kablolar’da kalite ve yeniliğe olan bağlılığımız, yirmi yılı aşkın süredir başarımızı yönlendiriyor. Beklentileri aşan ürünler sunarak müşterilerimizle kalıcı ilişkiler kurmaya inanıyoruz. Sürekli iyileştirme yolculuğumuz, her alanda mükemmelliğe olan adanmışlığımızı yansıtıyor.”",
+    "name": "Rajiv Malhotra",
+    "title": "Genel Müdür, Malhotra Kablolar",
+    "image": "/landing/images/rajiv_malhotra.jpg"
+  },
+  "headerClientSection": {
+    "title": "Müşterilerimiz ve OEM Onayları",
+    "description": "Çeşitli sektörlerin önde gelen şirketleri tarafından güvenilir"
+  },
+  "clients": [
+    { "name": "aptiv",               "logo": "/landing/images/carrousel/aptiv-logo.webp" },
+    { "name": "daimler",             "logo": "/landing/images/carrousel/daimler.webp" },
+    { "name": "dhoot",               "logo": "/landing/images/carrousel/dhoot-logo.webp" },
+    { "name": "fca",                 "logo": "/landing/images/carrousel/fca.webp" },
+    { "name": "fme",                 "logo": "/landing/images/carrousel/fme-logo-new.webp" },
+    { "name": "gm",                  "logo": "/landing/images/carrousel/gm.png" },
+    { "name": "hesto",               "logo": "/landing/images/carrousel/hesto-logo.jpg" },
+    { "name": "honda two wheeler",   "logo": "/landing/images/carrousel/honda-two-wheeler.webp" },
+    { "name": "honda",               "logo": "/landing/images/carrousel/honda.webp" },
+    { "name": "hyundai",             "logo": "/landing/images/carrousel/hyundai.png" },
+    { "name": "isuzu",               "logo": "/landing/images/carrousel/isuzu.webp" },
+    { "name": "john deere",          "logo": "/landing/images/carrousel/john-deere.webp" },
+    { "name": "mahindra",            "logo": "/landing/images/carrousel/mahindra.webp" },
+    { "name": "mg",                  "logo": "/landing/images/carrousel/mg.webp" },
+    { "name": "naipno",              "logo": "/landing/images/carrousel/naipno-logo.webp" },
+    { "name": "psa",                 "logo": "/landing/images/carrousel/psa.webp" },
+    { "name": "renault",             "logo": "/landing/images/carrousel/renault.png" },
+    { "name": "royal enfield",       "logo": "/landing/images/carrousel/royal-enfield.webp" },
+    { "name": "suzuki",              "logo": "/landing/images/carrousel/suzuki.webp" },
+    { "name": "tata",                "logo": "/landing/images/carrousel/tata.webp" },
+    { "name": "toyota",              "logo": "/landing/images/carrousel/toyota.webp" },
+    { "name": "tvs motor logo",      "logo": "/landing/images/carrousel/tvs-motor-logo.webp" },
+    { "name": "unominda",            "logo": "/landing/images/carrousel/unominda.ns_big-1.webp" },
+    { "name": "volkswagon",          "logo": "/landing/images/carrousel/volkswagon.webp" },
+    { "name": "yamaha",              "logo": "/landing/images/carrousel/yamaha.webp" },
+    { "name": "yazaki",              "logo": "/landing/images/carrousel/yazaki-logo.webp" }
+  ]
+}
