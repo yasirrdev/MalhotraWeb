@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "lucide-react": "^0.507.0"
+  },
+  "devDependencies": {
+    "@vercel/node": "^5.2.0"
   }
 }
