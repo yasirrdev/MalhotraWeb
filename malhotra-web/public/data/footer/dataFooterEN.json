@@ -12,14 +12,15 @@
   "quickLinks": [
     { "key": "MissionAndVision",    "label": "Mission And Vision",   "href": "/about/strategyMission&Vision" },
     { "key": "StandartsPolicy",    "label": "Standart Policy",   "href": "/about/workingStandardsPolicy" },
+    { "key": "Policy",    "label": "Policy",   "href": "/about/Policy" },
     { "key": "products", "label": "Products",   "href": "/products" },
-    { "key": "contact",  "label": "Contact Us", "href": "/contact" }
+    { "key": "suggestions",  "label": "Suggestions and Complaints", "href": "/suggestions-and-complaints" }
   ],
   "productLinks": [
-    { "key": "automotive",         "label": "Automotive Cables",         "href": "/products/automotive" },
-    { "key": "data-communication", "label": "Data Communication Cables", "href": "/products/data-communication" },
-    { "key": "high-voltage",       "label": "High-Voltage Cables",         "href": "/products/high-voltage" },
-    { "key": "custom",             "label": "Custom Solutions",           "href": "/products/custom" }
+    { "key": "automotive",         "label": "Automotive Cables",         "href": "/products" },
+    { "key": "data-communication", "label": "Data Communication Cables", "href": "/products" },
+    { "key": "high-voltage",       "label": "High-Voltage Cables",         "href": "/products" },
+    { "key": "custom",             "label": "Custom Solutions",           "href": "/products" }
   ],
   "contact": {
     "address": "69/2a, Najafgarh Road, Moti Nagar Industrial Area, Delhi-110015",

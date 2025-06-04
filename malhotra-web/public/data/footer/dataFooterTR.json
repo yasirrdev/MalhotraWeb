@@ -6,15 +6,15 @@
       { "key": "instagram", "url": "#" },
       { "key": "twitter",   "url": "#" },
       { "key": "facebook",  "url": "#" },
-      { "key": "linkedin",  "url": "#" }
+      { "key": "linkedin",  "url": "https://www.linkedin.com/company/malhotra-cables-pvt-ltd/?originalSubdomain=in" }
     ]
   },
   "quickLinks": [
-    { "key": "about",    "label": "Hakkımızda",      "href": "/about" },
-    { "key": "products", "label": "Ürünler",         "href": "/products" },
-    { "key": "services", "label": "Hizmetler",       "href": "/services" },
-    { "key": "careers",  "label": "Kariyer",         "href": "/careers" },
-    { "key": "contact",  "label": "Bize Ulaşın",     "href": "/contact" }
+    { "key": "MissionAndVision", "label": "Misyon ve Vizyon", "href": "/about/strategyMission&Vision" },
+    { "key": "StandartsPolicy", "label": "Standart Politikası", "href": "/about/workingStandardsPolicy" },
+    { "key": "Policy", "label": "Politika", "href": "/about/Policy" },
+    { "key": "products", "label": "Ürünler", "href": "/products" },
+    { "key": "suggestions", "label": "Öneri ve Şikayetler", "href": "/suggestions-and-complaints" }
   ],
   "productLinks": [
     { "key": "automotive",         "label": "Otomotiv Kabloları",         "href": "/products/automotive" },
