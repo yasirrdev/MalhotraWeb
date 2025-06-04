@@ -1,0 +1,46 @@
+{
+  "pageHeader": {
+    "title": "Misyon, Vizyon ve Değerler",
+    "description": "Kim olduğumuzu ve neyi savunduğumuzu tanımlayan rehber ilkelerimiz"
+  },
+  "ctaSection": {
+    "title": "Yolculuğumuza Katılın",
+    "description": "Misyonumuzun, vizyonumuzun ve değerlerimizin Malhotra Kablolar’daki her şeyimizi nasıl yönlendirdiğini keşfedin",
+    "button_1": "Bize Ulaşın",
+    "button_2": "Ekibimize Katılın"
+  },
+  "purpose": {
+    "title": "Amaç",
+    "content": "Şirket yönetimi, iş dünyasının sürekli değişen ve hızlı gelişen doğasının ve bunun sonucunda ortaya çıkan rekabet ortamının farkındadır ve küresel olarak tanınan bir şirket olmayı hedeflemektedir. Bu hedefe ulaşmak için:"
+  },
+  "strategy": {
+    "title": "Stratejimiz",
+    "content": "Tüm çalışanların mevcut süreçlerin risk ve fırsatlarını belirlemede katılımını teşvik ederek, tüm süreçleri etkin bir şekilde yöneterek, performans verilerini sürekli izleyerek ve belirlenen hedeflere ulaşmak için zamanında eylemler alarak şirket içinde sürdürülebilir büyümeyi sağlamak."
+  },
+  "mission": {
+    "title": "Misyonumuz",
+    "content": "Değişken pazar koşullarında kaynakları verimli kullanarak düşük maliyetle yüksek kaliteli ürünler üreterek müşterilerimiz için değer yaratmak, bu ürünleri doğru zamanda ve doğru miktarda teslim etmek ve fark yaratan hizmetler sunmak."
+  },
+  "values": {
+    "title": "Değerlerimiz",
+    "description": "Eylemlerimize ve kararlarımıza rehberlik eden ilkeler",
+    "items": [
+      "İnsanlara ve çevreye saygı",
+      "Güvenilirlik",
+      "Tutarlılık",
+      "Şeffaflık",
+      "Esneklik",
+      "Sorumluluk duygusu",
+      "Haksız kazanca karşı duruş",
+      "İş etiğine bağlılık",
+      "Bilgi sızıntısının önlenmesi",
+      "Etik kurallara uyum",
+      "Yükseltme prosedürlerine bağlılık",
+      "Kalite taahhüdü"
+    ]
+  },
+  "vision": {
+    "title": "Vizyonumuz",
+    "content": "Mevcut ve potansiyel müşterilerimiz için tercih edilen birincil çözüm ortağı olmak."
+  }
+}

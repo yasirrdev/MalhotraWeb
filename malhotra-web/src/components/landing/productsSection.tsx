@@ -2,7 +2,6 @@
 
 import React from "react";
 import * as Icons from "lucide-react";
-import SectionHeader from "@/components/about/sectionHeader";
 import ProductCard from "@/components/landing/product-card";
 
 interface Product {

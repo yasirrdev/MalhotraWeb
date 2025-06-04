@@ -1,0 +1,14 @@
+[
+  { "key": "home",     "label": "Ana Sayfa",           "href": "/" },
+  { "key": "products", "label": "Ürünler",              "href": "/products" },
+  {
+    "key": "about",
+    "label": "Hakkımızda",
+    "items": [
+      { "key": "mission", "label": "Misyon & Vizyon",  "href": "/about/strategyMission&Vision" },
+      { "key": "policy",  "label": "Standartlar Politikası", "href": "/about/workingStandardsPolicy" }
+    ]
+  },
+  { "key": "contact",  "label": "İletişim",            "href": "/contact" },
+  { "key": "career",   "label": "Kariyer",             "href": "/career" }
+]

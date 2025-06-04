@@ -1,0 +1,232 @@
+[
+  {
+    "id": "1",
+    "name": "Vinyl Chloride Insulated low-voltage cables for automobiles",
+    "category": "Automotive Cable",
+    "cableType": "AV, AVF, & HEB",
+    "insulationMaterial": "PVC",
+    "temperatureRange": "-40 °C to +80 °C",
+    "referenceStandard": "JASO D 611:2014",
+    "image": "/products/cable-1.webp"
+  },
+  {
+    "id": "2",
+    "name": "Thin Wall Vinyl Chloride Insulated low-voltage cables for automobiles",
+    "category": "Automotive Cable",
+    "cableType": "AVS, AVSF",
+    "insulationMaterial": "PVC",
+    "temperatureRange": "-40 °C to +80 °C",
+    "referenceStandard": "JASO D 611:2014",
+    "image": "/products/cable-2.webp"
+  },
+  {
+    "id": "3",
+    "name": "Vinyl Chloride Insulated low-voltage cables for automobiles",
+    "category": "Automotive Cable",
+    "cableType": "AVSS, AVSSF",
+    "insulationMaterial": "PVC",
+    "temperatureRange": "-40 °C to +80 °C",
+    "referenceStandard": "JASO D 611:2014",
+    "image": "/products/cable-3.webp"
+  },
+  {
+    "id": "4",
+    "name": "Very Thin Wall PVC Insulated Heat Resistant Low-Voltage Cables for Automobiles",
+    "category": "Automotive Cable",
+    "cableType": "AVSSHF",
+    "insulationMaterial": "PVC",
+    "temperatureRange": "-40 °C to +100 °C",
+    "referenceStandard": "JASO D 611:2014",
+    "image": "/products/cable-4.webp"
+  },
+  {
+    "id": "5",
+    "name": "Cross-linked vinyl chloride insulated heat resistant low-voltage cables for automobiles",
+    "category": "Automotive Cable",
+    "cableType": "AVX",
+    "insulationMaterial": "Cross-Linked PVC",
+    "temperatureRange": "-40 °C to +80 °C",
+    "referenceStandard": "JASO D 611:2014",
+    "image": "/products/cable-5.webp"
+  },
+  {
+    "id": "6",
+    "name": "Very thin wall cross-linked PVC insulated heat resistant low-voltage cables for automobiles",
+    "category": "Automotive Cable",
+    "cableType": "AVSSX",
+    "insulationMaterial": "PVC",
+    "temperatureRange": "-40 °C to +80 °C",
+    "referenceStandard": "JASO D 611:2014",
+    "image": "/products/cable-6.webp"
+  },
+  {
+    "id": "7",
+    "name": "Very thin wall cross-linked polythene insulated heat resistant low-voltage cables for automobiles",
+    "category": "Automotive Cable",
+    "cableType": "AESSX",
+    "insulationMaterial": "Cross-Linked Polyethylene",
+    "temperatureRange": "-40 °C to +120 °C",
+    "referenceStandard": "JASO D 611:2014",
+    "image": "/products/cable-7.webp"
+  },
+  {
+    "id": "8",
+    "name": "Thin Wall Vinyl Chloride Insulated low-voltage cables for automobiles",
+    "category": "Automotive Cable",
+    "cableType": "CAVS, ACCAVS",
+    "insulationMaterial": "PVC",
+    "temperatureRange": "-40 °C to +80 °C",
+    "referenceStandard": "JASO D 611:2014",
+    "image": "/products/cable-8.webp"
+  },
+  {
+    "id": "9",
+    "name": "Ultra-Thin Wall Vinyl Chloride Insulated Low-Voltage Cables for Automobiles",
+    "category": "Automotive Cable",
+    "cableType": "CIVUS, ACCIVUS",
+    "insulationMaterial": "PVC",
+    "temperatureRange": "-40 °C to +85 °C",
+    "referenceStandard": "JASO D 611:2014",
+    "image": "/products/cable-9.webp"
+  },
+  {
+    "id": "10",
+    "name": "Very Thin Wall Vinyl Chloride Insulated Heat Resistant Low-Voltage Cables for Automobiles",
+    "category": "Automotive Cable",
+    "cableType": "IVSSHF",
+    "insulationMaterial": "PVC",
+    "temperatureRange": "-40 °C to +100 °C",
+    "referenceStandard": "JASO D 611:2014",
+    "image": "/products/cable-10.webp"
+  },
+  {
+    "id": "11",
+    "name": "Vinyl Chloride Insulated low-voltage cables for automobiles",
+    "category": "Automotive Cable",
+    "cableType": "EB",
+    "insulationMaterial": "PVC",
+    "temperatureRange": "-40 °C to +80 °C",
+    "referenceStandard": "JASO D 611:2014",
+    "image": "/products/cable-11.webp"
+  },
+  {
+    "id": "12",
+    "name": "Cable low tension, halogen free XLPE, ultra thin insulation",
+    "category": "Automotive Cable",
+    "cableType": "PSA (T3)",
+    "insulationMaterial": "T3 XLPE",
+    "temperatureRange": "-40 °C to +125 °C",
+    "referenceStandard": "B25 1110",
+    "image": "/products/cable-12.webp"
+  },
+  {
+    "id": "13",
+    "name": "Very Thin Wall Vinyl Chloride Insulated Heat Resistant Low-Voltage Cables for Automobiles",
+    "category": "Data Communication Cable",
+    "cableType": "PSA (T4)",
+    "insulationMaterial": "T4 XLPE",
+    "temperatureRange": "-40 °C to +150 °C",
+    "referenceStandard": "B25 1110",
+    "image": "/products/cable-13.webp"
+  },
+  {
+    "id": "14",
+    "name": "600 V ac / 1000 V dc cables",
+    "category": "High Voltage Cable",
+    "cableType": "HV CABLE (T3)",
+    "insulationMaterial": "XLPE",
+    "temperatureRange": "-40 °C to +125 °C",
+    "referenceStandard": "ES-AU5T-1A348-AA",
+    "image": "/products/cable-14.webp"
+  },
+  {
+    "id": "15",
+    "name": "600 V ac / 1000 V dc – 1000 V ac / 1500 V dc cables",
+    "category": "High Voltage Cable",
+    "cableType": "HV CABLE (T4)",
+    "insulationMaterial": "XLPE",
+    "temperatureRange": "-40 °C to +150 °C",
+    "referenceStandard": "ES-AU5T-1A348-AA",
+    "image": "/products/cable-15.webp"
+  },
+  {
+    "id": "16",
+    "name": "AVSS core, copper tape shielded, PVC sheathed low tension automotive cable (thin sheath type)",
+    "category": "Speciality Cable",
+    "cableType": "SHIELDED CABLE",
+    "insulationMaterial": "PVC",
+    "temperatureRange": "-40 °C to +80 °C",
+    "referenceStandard": "YPES-11-01-180",
+    "image": "/products/cable-16.webp"
+  },
+  {
+    "id": "17",
+    "name": "Cable, LV, multiconductor, copper, PVC insulation, PVC jacket",
+    "category": "Speciality Cable",
+    "cableType": "MULTI CORE CABLE",
+    "insulationMaterial": "PVC",
+    "temperatureRange": "-40 °C to +100 °C",
+    "referenceStandard": "ISO 6722-1:2011",
+    "image": "/products/cable-17.webp"
+  },
+  {
+    "id": "18",
+    "name": "Dimensions and requirements for 600 V ac or 900 V dc and 1000 V ac or 1500 V dc round, sheathed, screened or unscreened multi or single core copper conductor cables",
+    "category": "Speciality Cable",
+    "cableType": "SHEATHED CABLE",
+    "insulationMaterial": "XLPE",
+    "temperatureRange": "-40 °C to +125 °C",
+    "referenceStandard": "ES-AU5T-1A348-AA",
+    "image": "/products/cable-18.webp"
+  },
+  {
+    "id": "19",
+    "name": "Part-1 Dimensions, test methods and requirements for 60 V or 600 V single core copper conductor cables",
+    "category": "Data Communication Cable",
+    "cableType": "PSA (T4)",
+    "insulationMaterial": "T4 XLPE",
+    "temperatureRange": "-40 °C to +150 °C",
+    "referenceStandard": "ISO 6722-1:2011, ES-AU5T-1A348-AA, MS.90034, ES91110-05",
+    "image": "/products/cable-19.webp"
+  },
+  {
+    "id": "20",
+    "name": "Part-1 Dimensions, test methods and requirements for 60 V or 600 V single core copper conductor cables",
+    "category": "Data Communication Cable",
+    "cableType": "T3 Cable",
+    "insulationMaterial": "PVC / PP / T3 XLPE",
+    "temperatureRange": "-40 °C to +125 °C",
+    "referenceStandard": "ISO 6722-1:2011, ES-AU5T-1A348-AA, MS.90034, ES91110-05",
+    "image": "/products/cable-20.webp"
+  },
+  {
+    "id": "21",
+    "name": "Part-1 Dimensions, test methods and requirements for 60 V or 600 V single core copper conductor cables",
+    "category": "Data Communication Cable",
+    "cableType": "T4 Cable",
+    "insulationMaterial": "XLPE",
+    "temperatureRange": "-40 °C to +125 °C",
+    "referenceStandard": "ISO 6722-1:2011, ES-AU5T-1A348-AA, MS.90034, ES91110-05",
+    "image": "/products/cable-21.webp"
+  },
+  {
+    "id": "22",
+    "name": "Ultra-Thin Wall Vinyl Chloride Insulated Low-Voltage Cables for Automobiles",
+    "category": "Automotive Cable",
+    "cableType": "CIVUS, ACCIVUS",
+    "insulationMaterial": "PVC",
+    "temperatureRange": "-40 °C to +100 °C",
+    "referenceStandard": "YPES-11-01-254",
+    "image": "/products/cable-22.webp"
+  },
+  {
+    "id": "23",
+    "name": "Dimensions and requirements for 600 V ac or 900 V dc and 1000 V ac or 1500 V dc round, sheathed, screened or unscreened multi or single core copper conductor cables",
+    "category": "Speciality Cable",
+    "cableType": "ANTI CAPILLARY CABLE",
+    "insulationMaterial": "XLPO",
+    "temperatureRange": "-40 °C to +150 °C",
+    "referenceStandard": "ES-AU5T-1A348-AA",
+    "image": "/products/cable-23.webp"
+  }
+]

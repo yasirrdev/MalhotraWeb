@@ -1,5 +1,3 @@
-// components/landing/ClientLogoSlider.tsx
-
 "use client";
 
 import Image from "next/image";
@@ -63,15 +61,13 @@ export default function ClientLogoSlider({
   );
 
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-20">
       <div className="container mx-auto px-4 sm:px-6">
-        {/* Cabecera de la sección */}
         <SectionHeader
           title={headerClientSection.title}
           description={headerClientSection.description}
         />
 
-        {/* Carrusel de logos */}
         <div className="space-y-8 mt-8">
           {renderRow(topItems, "top")}
           {renderRow(bottomItems, "bottom")}

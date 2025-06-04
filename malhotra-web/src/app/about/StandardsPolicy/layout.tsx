@@ -2,11 +2,11 @@ import type { Metadata } from "next"
 import { ReactNode } from "react"
 
 export const metadata: Metadata = {
-  title: "Products – Malhotra",
+  title: "Standards Policy – Malhotra",
   description: "Explore our range of high-quality cables and wires.",
 }
 
-export default function ProductsLayout({
+export default function PolicyLayout({
   children,
 }: {
   children: ReactNode

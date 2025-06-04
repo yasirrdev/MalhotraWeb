@@ -1,12 +1,12 @@
 import type { Metadata } from "next"
-import { ReactNode } from "react"
+import React, { ReactNode } from "react"
 
 export const metadata: Metadata = {
-  title: "Products – Malhotra",
+  title: "Mission & Vision - Malhotra",
   description: "Explore our range of high-quality cables and wires.",
 }
 
-export default function ProductsLayout({
+export default function StrategyLayout({
   children,
 }: {
   children: ReactNode

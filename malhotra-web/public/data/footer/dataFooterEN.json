@@ -1,0 +1,30 @@
+{
+  "company": {
+    "name": "Malhotra Cables",
+    "description": "20 years of excellence in manufacturing automotive, data-communication, and high-voltage cables.",
+    "social": [
+      { "key": "instagram", "url": "#" },
+      { "key": "twitter",   "url": "#" },
+      { "key": "facebook",  "url": "#" },
+      { "key": "linkedin",  "url": "#" }
+    ]
+  },
+  "quickLinks": [
+    { "key": "about",    "label": "About Us",   "href": "/about" },
+    { "key": "products", "label": "Products",   "href": "/products" },
+    { "key": "services", "label": "Services",   "href": "/services" },
+    { "key": "careers",  "label": "Careers",    "href": "/careers" },
+    { "key": "contact",  "label": "Contact Us", "href": "/contact" }
+  ],
+  "productLinks": [
+    { "key": "automotive",         "label": "Automotive Cables",         "href": "/products/automotive" },
+    { "key": "data-communication", "label": "Data Communication Cables", "href": "/products/data-communication" },
+    { "key": "high-voltage",       "label": "High-Voltage Cables",         "href": "/products/high-voltage" },
+    { "key": "custom",             "label": "Custom Solutions",           "href": "/products/custom" }
+  ],
+  "contact": {
+    "address": "123 Industrial Area, Delhi NCR, India - 110001",
+    "phone":   "+91 11 2345 6789",
+    "email":   "info@malhotracables.com"
+  }
+}

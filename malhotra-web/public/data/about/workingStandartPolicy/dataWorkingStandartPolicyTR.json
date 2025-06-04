@@ -1,0 +1,88 @@
+{
+  "workingStandardsPolicy": {
+    "policy": {
+      "headline": "Politika",
+      "text": "Otomotiv kablo sektöründe faaliyet gösteren ve çeşitli ülkelere ihracat yapan Malhotra Kablo, tüm faaliyetlerinde çalışanlarına ve topluma saygı gösterirken kalite, maliyet ve teslim süresi açısından tercih edilen bir iş ortağı olmayı hedeflemektedir.\n\nBu politika, şirket çalışanlarından görevlerini yerine getirirken beklenen temel değerleri, ilkeleri ve sürekli iyileştirmeye olan bağlılığı ortaya koymaktadır. Tüm çalışanlarımızdan gizliliğe, kişisel haklara ve bireysel onura saygı göstermelerini bekliyoruz. Şirket, cinsiyet, yaş, siyasi düşünce, ırk, milliyet, etnik köken veya din temelinde ayrımcı davranışı veya tacizi asla hoşgörmez. Taciz, tehdit, şiddet ve zorbalık kesinlikle yasaktır. Kişisel konumu rüşvet, yolsuzluk yapmak veya gizli ya da ticari sır niteliğindeki bilgileri ifşa etmek için kullanmak kati suretle yasaktır.\n\nÇalışanların, müşterilerin, tedarikçilerin, alt yüklenicilerin ve iş ortaklarının yürürlükteki yasalara ve düzenlemelere, Çalışma Standartları Politikamıza, Etik Kurallar Politikasına, Rüşvet ve Yolsuzlukla Mücadele Politikasına ve Sıfır Hoşgörü Politikasına uymaları beklenmektedir. Malhotra Kablo, bu politikalara uymayan taraflarla ilişkilerini sonlandırma hakkını saklı tutar.\n\nÇalışanlarımızın bilinçli hareket etmelerini ve herhangi bir ihlali info@malhotracables.com.tr adresine e-posta göndererek Etik Komiteye bildirmelerini bekliyoruz."
+    },
+    "generalPrinciples": [
+      {
+        "title": "Dürüstlük",
+        "description": "Tüm paydaşlarla olan ilişkilerde işlemler dürüstlük ve doğruluk ilkeleriyle yürütülür."
+      },
+      {
+        "title": "Şeffaflık",
+        "description": "Çalışanlar, tüm paydaşlarla olan ilişkilerde açık, eksiksiz ve zamanında bilgi sağlar."
+      },
+      {
+        "title": "Tarafsızlık",
+        "description": "Din, dil, ırk, cinsiyet, siyasi görüş vb. temelinde ayrımcılık yapılmaz; herkese adil ve eşit muamele edilir."
+      },
+      {
+        "title": "Gizlilik",
+        "description": "Ticari sırlar, fikri mülkiyet, finansal, İK ve diğer hassas bilgiler korunur ve yalnızca etik ve yasal sınırlar içinde gerekli olduğunda paylaşılır."
+      },
+      {
+        "title": "Yasalara ve Düzenlemelere Uyum",
+        "description": "Şirket, yasal çerçeveleri ve düzenlemeleri yakından takip eder ve bunlara uyar."
+      },
+      {
+        "title": "Adil İş, Reklam ve Rekabet",
+        "description": "Operasyon gerçekleştirdiğimiz tüm ülkelerde kanun ve standartlara tam uyum sağlanır."
+      },
+      {
+        "title": "Fikri Mülkiyetin Korunması",
+        "description": "Fikri mülkiyet haklarının korunması ve sorumlu kullanımı."
+      },
+      {
+        "title": "Yolsuzluk ve Rüşvetle Mücadele",
+        "description": "Rüşvet, yolsuzluk, çıkar çatışması veya etik dışı davranışlara tolerans gösterilmez. Hediye kabulü yalnızca 1000 TL'yi aşmıyorsa veya şirket genelinde paylaşılacaksa mümkündür."
+      },
+      {
+        "title": "Kimlik Koruması ve Misilleme Yapılmaması",
+        "description": "İhbarcılar korunur ve kimlikleri gizli tutulur."
+      }
+    ],
+    "workingStandards": [
+      {
+        "title": "Serbest İradenle Seçilmiş İstihdam",
+        "description": "Zorla çalıştırma, kölelik, insan ticareti veya istismar yoktur. Çalışanlar işe alım ücreti ödemeye zorlanmaz ve kişisel özgürlüklerine saygı gösterilir."
+      },
+      {
+        "title": "Genç İşçiler ve Stajyerler",
+        "description": "Çocuk işçi çalıştırılmaz. Genç işçiler yerel yasalara uygun olarak istihdam edilir ve tehlikeli işlerde çalıştırılmaz."
+      },
+      {
+        "title": "Çalışma Saatleri",
+        "description": "Ulusal yasalara, toplu iş sözleşmelerine ve uluslararası standartlara uygun olarak."
+      },
+      {
+        "title": "Ücretler ve Yan Haklar",
+        "description": "Gerektiği şekilde yasal ücretler ve yan haklar ödenir."
+      },
+      {
+        "title": "İnsancıl Muamele",
+        "description": "İnsan haklarına saygı gösterilir; şiddet veya insanlık dışı muameleye tolerans yoktur."
+      },
+      {
+        "title": "Ayrımcılık Yapılmaması",
+        "description": "Ücretler, terfi, eğitim, işe alım veya istihdam uygulamalarında ayrımcılık yapılmaz."
+      },
+      {
+        "title": "Örgütlenme ve Toplu Pazarlık Hakkı",
+        "description": "Çalışanlar sendikalara katılma veya katılmama özgürlüğüne sahiptir ve misilleme korkusu olmadan barışçıl toplanma hakkını kullanabilir."
+      }
+    ],
+    "pageHeader": {
+      "title": "Çalışma Standartları Politikası",
+      "description": "Etik iş uygulamalarına ve tüm paydaşlara adil muamele taahhüdümüz"
+    },
+    "headerStandarSection": {
+      "title": "Çalışma Standartları",
+      "description": "İş yerimizde ve iş ilişkilerimizde benimsediğimiz standartlar"
+    },
+    "headerPrinciplesSection": {
+      "title": "Genel İlkeler",
+      "description": "İş uygulamalarımıza yön veren temel ilkeler"
+    }
+  }
+}

@@ -1,12 +1,14 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
+import { useLanguage } from "@/context/languageContext";
 import StatsSection, { Stat } from "@/components/landing/stats";
 import ProductsSection from "@/components/landing/productsSection";
 import CoreValuesSection from "@/components/landing/coreValues";
 import CertificationCarousel from "@/components/landing/certification-carrousel";
 import ClientLogoSlider from "@/components/landing/client-logo-slider";
 import HeroSection from "@/components/landing/hero";
+import DirectorSection, { DirectorData } from "@/components/landing/director";
 
 interface DataHome {
   hero: {
@@ -17,18 +19,9 @@ interface DataHome {
   };
   stats: Stat[];
   headerProductsSection: { title: string; description?: string };
-  products: {
-    title: string;
-    description: string;
-    icon: string;
-    link: string;
-  }[];
+  products: { title: string; description: string; icon: string; link: string }[];
   headerValuesSection: { title: string; description?: string };
-  coreValues: {
-    title: string;
-    description: string;
-    icon: string;
-  }[];
+  coreValues: { title: string; description: string; icon: string }[];
   headerCertificationsSection: { title: string; description: string };
   certificationLabels: {
     asrNumber: string;
@@ -46,25 +39,31 @@ interface DataHome {
     expirationDate?: string;
     initialRegistration?: string;
   }[];
+  director: DirectorData;
   headerClientSection: { title: string; description?: string };
   clients: { name: string; logo: string }[];
 }
 
-export default function Home() {
+export default function HomePage() {
+  const { lang } = useLanguage();
   const [dataHome, setDataHome] = useState<DataHome | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch("/data/home/dataHome.json")
-      .then(res => {
-        if (!res.ok) throw new Error(res.statusText);
+    setIsLoading(true);
+    fetch(`/data/home/dataHome${lang.toUpperCase()}.json`)
+      .then((res) => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
         return res.json() as Promise<DataHome>;
       })
-      .then(json => setDataHome(json))
+      .then((json) => {
+        setDataHome(json);
+        setError(null);
+      })
       .catch(() => setError("Failed to load homepage data."))
       .finally(() => setIsLoading(false));
-  }, []);
+  }, [lang]);
 
   if (isLoading) {
     return (
@@ -92,6 +91,7 @@ export default function Home() {
     headerCertificationsSection,
     certificationLabels,
     certifications,
+    director,
     headerClientSection,
     clients,
   } = dataHome;
@@ -107,10 +107,7 @@ export default function Home() {
         buttonLink={hero.button.link}
       />
       <StatsSection stats={stats} />
-      <ProductsSection
-        sectionHeader={headerProductsSection}
-        products={products}
-      />
+      <ProductsSection sectionHeader={headerProductsSection} products={products} />
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
@@ -126,6 +123,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <DirectorSection data={director} />
       <ClientLogoSlider
         clients={clients}
         headerClientSection={headerClientSection}
