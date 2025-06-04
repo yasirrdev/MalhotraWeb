@@ -1,0 +1,123 @@
+{
+  "metadata": {
+    "title": "Öneri ve Şikayetler - Malhotra Kablolar",
+    "description": "Ürünle ilgili isteklerinizi, önerilerinizi veya şikayetlerinizi gönderin. En kısa sürede yanıt vereceğiz."
+  },
+  "hero": {
+    "badge": "Müşteri Geri Bildirim Portalı",
+    "title": "Sesiniz",
+    "titleHighlight": "Yeniliği Tetikler",
+    "subtitle": "Malhotra Kablolar’da her öneri önemlidir. Düşüncelerinizi, deneyimlerinizi ve fikirlerinizi paylaşarak beklentilerinizi aşan olağanüstü ürün ve hizmetler sunmamıza yardımcı olun.",
+    "stats": [
+      {
+        "number": "10K+",
+        "label": "Mutlu Müşteriler"
+      },
+      {
+        "number": "24h",
+        "label": "Yanıt Süresi"
+      },
+      {
+        "number": "98%",
+        "label": "Memnuniyet Oranı"
+      },
+      {
+        "number": "100%",
+        "label": "Gizlilik"
+      }
+    ],
+    "cta": {
+      "primary": "Geri Bildiriminizi Paylaşın",
+      "secondary": "Doğrudan İletişime Geçin"
+    }
+  },
+  "form": {
+    "title": "Deneyiminizi Paylaşın",
+    "subtitle": "Düşüncelerinizi, önerilerinizi veya endişelerinizi paylaşarak size daha iyi hizmet etmemize yardımcı olun. Geri bildiriminiz mükemmellik taahhüdümüzü besler.",
+    "fields": {
+      "name": {
+        "label": "Ad Soyad",
+        "placeholder": "Tam adınızı girin"
+      },
+      "email": {
+        "label": "E-posta Adresi",
+        "placeholder": "your.email@example.com"
+      },
+      "phone": {
+        "label": "Telefon Numarası",
+        "placeholder": "+1 (555) 123-4567"
+      },
+      "message": {
+        "label": "Mesajınız",
+        "placeholder": "Lütfen geri bildiriminizi, önerilerinizi veya endişelerinizi ayrıntılı olarak paylaşın. Ne kadar çok bilgi sağlarsanız, size o kadar iyi yardımcı olabiliriz."
+      }
+    },
+    "validation": {
+      "nameRequired": "Ad girilmesi zorunludur",
+      "emailInvalid": "Lütfen geçerli bir e-posta adresi girin",
+      "phoneRequired": "Telefon numarası zorunludur",
+      "messageMinLength": "Mesaj en az 10 karakter olmalıdır"
+    },
+    "submit": {
+      "button": "Geri Bildiriminizi Gönderin",
+      "loading": "Mesajınız gönderiliyor...",
+      "success": {
+        "title": "Mesaj Başarıyla Gönderildi!",
+        "message": "Teşekkürler! Mesajınız başarıyla gönderildi. 24-48 saat içinde size geri döneceğiz."
+      },
+      "error": {
+        "title": "Hata! Bir şeyler yanlış gitti",
+        "message": "Beklenmeyen bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+        "failedMessage": "Mesaj gönderilemedi. Lütfen tekrar deneyin."
+      }
+    }
+  },
+  "contact": {
+    "title": "Bağlanmanın Birçok Yolu",
+    "titleHighlight": "Bağlanın",
+    "subtitle": "Sizin için en uygun iletişim yöntemini seçin. Ekibimiz her kanaldan size yardımcı olmaya hazır.",
+    "methods": [
+      {
+        "title": "E-posta Desteği",
+        "description": "Sorularınıza ayrıntılı yanıtlar alın",
+        "contact": "info@malhotracables.com",
+        "type": "email"
+      },
+      {
+        "title": "Telefon Desteği",
+        "description": "Uzmanlarımızla doğrudan konuşun",
+        "contact": "+91 11 2345 6789",
+        "type": "phone"
+      },
+      {
+        "title": "Ofisimizi Ziyaret Edin",
+        "description": "Ekibimizle yüz yüze görüşün",
+        "contact": "Yeni Delhi, Hindistan",
+        "type": "location"
+      }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Neden Geri Bildiriminiz",
+    "titleHighlight": "Önemli",
+    "subtitle": "Her geri bildirim parçası, ürün ve hizmetlerimizi geliştirmemize yardımcı olur.",
+    "features": [
+      {
+        "title": "Hızlı Yanıt",
+        "description": "İş günlerinde tüm geri bildirimlere 24-48 saat içinde yanıt veriyoruz, böylece endişeleriniz hızlıca ele alınıyor."
+      },
+      {
+        "title": "Tam Gizlilik",
+        "description": "Kişisel bilgileriniz ve geri bildirimleriniz tamamen gizli tutulur ve yalnızca hizmetlerimizi iyileştirmek için kullanılır."
+      },
+      {
+        "title": "Sürekli İyileştirme",
+        "description": "Ürünlerimizi, hizmetlerimizi ve müşteri deneyimini sürekli olarak geliştirmek için geri bildirimlerinizi kullanıyoruz."
+      },
+      {
+        "title": "Müşteri Odaklı",
+        "description": "Memnuniyetiniz önceliğimizdir. Her öneriyi değerli görüyor ve anlamlı değişiklikler uygulamak için çalışıyoruz."
+      }
+    ]
+  }
+}
