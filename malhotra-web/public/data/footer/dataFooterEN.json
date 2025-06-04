@@ -10,8 +10,8 @@
     ]
   },
   "quickLinks": [
-    { "key": "MissionAndVision",    "label": "Mission And Vision",   "href": "/about/strategyMission&Vision" },
-    { "key": "StandartsPolicy",    "label": "Standart Policy",   "href": "/about/workingStandardsPolicy" },
+    { "key": "MissionAndVision",    "label": "Mission And Vision",   "href": "/about/Mission&Vision" },
+    { "key": "StandartsPolicy",    "label": "Standart Policy",   "href": "/about/StandardsPolicy" },
     { "key": "Policy",    "label": "Policy",   "href": "/about/Policy" },
     { "key": "products", "label": "Products",   "href": "/products" },
     { "key": "suggestions",  "label": "Suggestions and Complaints", "href": "/suggestions-and-complaints" }

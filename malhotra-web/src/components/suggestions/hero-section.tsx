@@ -37,28 +37,23 @@ export default function HeroSection({ texts }: HeroSectionProps) {
         />
       </div>
 
-      {/* Decorative Elements */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-secondary/10 rounded-full -translate-y-48 translate-x-48" />
       <div className="absolute bottom-0 left-0 w-64 h-64 bg-white/5 rounded-full translate-y-32 -translate-x-32" />
 
       <div className="relative container mx-auto px-4 sm:px-6 py-20 lg:py-32">
         <div className="max-w-4xl mx-auto text-center">
-          {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-6 py-3 mb-8">
             <MessageCircle className="h-5 w-5 text-white" />
             <span className="text-white font-medium">{texts.badge}</span>
           </div>
 
-          {/* Main Heading */}
           <h1 className="text-5xl lg:text-7xl font-bold text-white mb-8 leading-tight">
             {texts.title}
             <span className="block text-secondary">{texts.titleHighlight}</span>
           </h1>
 
-          {/* Subtitle */}
           <p className="text-xl lg:text-2xl text-white/90 mb-12 max-w-3xl mx-auto leading-relaxed">{texts.subtitle}</p>
 
-          {/* Stats */}
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
             {texts.stats.map((stat, index) => {
               const IconComponent = iconMap[index as keyof typeof iconMap]
@@ -74,7 +69,6 @@ export default function HeroSection({ texts }: HeroSectionProps) {
             })}
           </div>
 
-          {/* CTA */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="#feedback-form"
