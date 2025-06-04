@@ -5,8 +5,8 @@
     "key": "about",
     "label": "Hakkımızda",
     "items": [
-      { "key": "mission",  "label": "Misyon & Vizyon",          "href": "/about/strategyMission&Vision" },
-      { "key": "standadsPolicy", "label": "Standartlar Politikası", "href": "/about/workingStandardsPolicy" },
+      { "key": "mission",  "label": "Misyon & Vizyon",          "href": "/about/Mission&Vision" },
+      { "key": "standadsPolicy", "label": "Standartlar Politikası", "href": "/about/StandardsPolicy" },
       { "key": "policy",   "label": "Politika",                 "href": "/about/Policy" }
     ]
   },

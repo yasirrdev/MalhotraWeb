@@ -24,25 +24,25 @@
       "title": "Otomotiv Kabloları",
       "description": "Üstün dayanıklılık ve güvenilirliğe sahip otomotiv endüstrisi için yüksek performanslı kablolar.",
       "icon": "Truck",
-      "link": "/products/automotive"
+      "link": "/products"
     },
     {
       "title": "Veri İletişim Kabloları",
       "description": "Çeşitli ortamlarda hızlı ve güvenilir iletim için tasarlanmış gelişmiş veri kabloları.",
       "icon": "Globe",
-      "link": "/products/data-communication"
+      "link": "/products"
     },
     {
       "title": "Yüksek Gerilim Kabloları",
       "description": "Güvenlik ve performans için tasarlanmış endüstriyel sınıf yüksek gerilim kabloları.",
       "icon": "Factory",
-      "link": "/products/high-voltage"
+      "link": "/products"
     },
     {
       "title": "Özel Çözümler",
       "description": "Özel gereksinimlerinizi ve uygulamalarınızı karşılamak üzere tasarlanmış kablo çözümleri.",
       "icon": "CheckCircle",
-      "link": "/products/custom"
+      "link": "/products"
     }
   ],
   "headerValuesSection": {

@@ -24,25 +24,25 @@
       "title": "Automotive Cables",
       "description": "High-performance cables for the automotive industry with superior durability and reliability.",
       "icon": "Truck",
-      "link": "/products/automotive"
+      "link": "/products"
     },
     {
       "title": "Data Communication Cables",
       "description": "Advanced data cables designed for fast and reliable transmission in various environments.",
       "icon": "Globe",
-      "link": "/products/data-communication"
+      "link": "/products"
     },
     {
       "title": "High-Voltage Cables",
       "description": "Industrial-grade high-voltage cables engineered for safety and performance.",
       "icon": "Factory",
-      "link": "/products/high-voltage"
+      "link": "/products"
     },
     {
       "title": "Custom Solutions",
       "description": "Tailored cable solutions designed to meet your specific requirements and applications.",
       "icon": "CheckCircle",
-      "link": "/products/custom"
+      "link": "/products"
     }
   ],
   "headerValuesSection": {

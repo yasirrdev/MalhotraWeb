@@ -20,13 +20,13 @@ export default function CTASection({
         </p>
         <div className="flex justify-center space-x-4">
           <a
-            href="/contact"
+            href="/suggestions-and-complaints"
             className="bg-white text-primary hover:bg-gray-100 px-6 py-3 rounded-md font-semibold transition-colors duration-300"
           >
             {button_1}
           </a>
           <a
-            href="/career"
+            href="/suggestions-and-complaints"
             className="bg-transparent border-2 border-white hover:bg-white/10 px-6 py-3 rounded-md font-semibold transition-colors duration-300"
           >
             {button_2}
