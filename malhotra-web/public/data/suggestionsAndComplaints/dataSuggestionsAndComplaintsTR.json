@@ -1,0 +1,16 @@
+{
+  "banner": {
+    "heading": "Öneri ve Şikayetler",
+    "paragraph": "Lütfen ürünle ilgili taleplerinizi, önerilerinizi veya şikayetlerinizi iletmek için aşağıdaki formu doldurun. En kısa sürede yanıt vereceğiz."
+  },
+  "form": {
+    "submitHeading": "Geri Bildiriminizi Gönderin"
+  },
+  "contact": {
+    "sectionHeading": "Bize Ulaşmanın Diğer Yolları",
+    "emailLabel": "E-posta",
+    "emailText": "info@malhotracables.com",
+    "phoneLabel": "Telefon",
+    "phoneText": "+91 11 2345 6789"
+  }
+}

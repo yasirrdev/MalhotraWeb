@@ -6,9 +6,9 @@
     "label": "About",
     "items": [
       { "key": "mission", "label": "Mission & Vision", "href": "/about/strategyMission&Vision" },
-      { "key": "policy",  "label": "Standards Policy",  "href": "/about/workingStandardsPolicy" }
+      { "key": "standadsPolicy",  "label": "Standards Policy",  "href": "/about/workingStandardsPolicy" },
+      { "key": "policy", "label": "Policy", "href": "/about/Policy"}
     ]
   },
-  { "key": "contact",  "label": "Contact",  "href": "/contact" },
-  { "key": "career",   "label": "Career",   "href": "/career" }
+  { "key": "suggestionsAndComplaints",  "label": "Sugestions & Complaints",  "href": "/suggestions-and-complaints" }
 ]

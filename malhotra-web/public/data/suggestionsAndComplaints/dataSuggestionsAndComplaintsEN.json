@@ -1,0 +1,16 @@
+{
+  "banner": {
+    "heading": "Suggestions and Complaints",
+    "paragraph": "Please fill out the form below to communicate your product-related requests and suggestions or complaints. We will respond shortly."
+  },
+  "form": {
+    "submitHeading": "Submit Your Feedback"
+  },
+  "contact": {
+    "sectionHeading": "Other Ways to Reach Us",
+    "emailLabel": "Email",
+    "emailText": "info@malhotracables.com",
+    "phoneLabel": "Phone",
+    "phoneText": "+91 11 2345 6789"
+  }
+}
