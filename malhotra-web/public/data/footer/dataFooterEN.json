@@ -6,14 +6,13 @@
       { "key": "instagram", "url": "#" },
       { "key": "twitter",   "url": "#" },
       { "key": "facebook",  "url": "#" },
-      { "key": "linkedin",  "url": "#" }
+      { "key": "linkedin",  "url": "https://www.linkedin.com/company/malhotra-cables-pvt-ltd/?originalSubdomain=in" }
     ]
   },
   "quickLinks": [
-    { "key": "about",    "label": "About Us",   "href": "/about" },
+    { "key": "MissionAndVision",    "label": "Mission And Vision",   "href": "/about/strategyMission&Vision" },
+    { "key": "StandartsPolicy",    "label": "Standart Policy",   "href": "/about/workingStandardsPolicy" },
     { "key": "products", "label": "Products",   "href": "/products" },
-    { "key": "services", "label": "Services",   "href": "/services" },
-    { "key": "careers",  "label": "Careers",    "href": "/careers" },
     { "key": "contact",  "label": "Contact Us", "href": "/contact" }
   ],
   "productLinks": [
@@ -23,8 +22,8 @@
     { "key": "custom",             "label": "Custom Solutions",           "href": "/products/custom" }
   ],
   "contact": {
-    "address": "123 Industrial Area, Delhi NCR, India - 110001",
-    "phone":   "+91 11 2345 6789",
+    "address": "69/2a, Najafgarh Road, Moti Nagar Industrial Area, Delhi-110015",
+    "phone":   "011-45719999",
     "email":   "info@malhotracables.com"
   }
 }
